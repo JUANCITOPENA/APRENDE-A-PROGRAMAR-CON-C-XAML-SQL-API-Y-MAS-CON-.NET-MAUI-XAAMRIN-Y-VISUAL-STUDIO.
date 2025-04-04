@@ -1,4 +1,4 @@
-# 📚 **Repositorio de Proyectos de Xamarin y MAUI** 📚
+# 📚 **Repositorio de Diapositivas Tipo Manual de Proyectos de Xamarin y MAUI** 📚
 
 ¡Bienvenidos al repositorio de proyectos de **Xamarin** y **MAUI**! Aquí encontrarás una colección completa de proyectos típicos y manuales para la programación de dispositivos móviles. Este repositorio está diseñado para ser un recurso integral para estudiantes y desarrolladores que desean aprender y dominar las tecnologías de Xamarin y MAUI.
 
