@@ -10,7 +10,7 @@ El objetivo de este proyecto es crear una **aplicación** intuitiva que permita 
 
 La **interfaz de usuario** de la aplicación ha sido diseñada para ser limpia y fácil de usar. Se emplea un `StackLayout` para organizar los elementos de forma vertical, asegurando una presentación clara y ordenada.
 
-!()[]
+!()[Screenshot_329.png]
 
 1. **Logo de la Aplicación**: En la parte superior, se muestra un **logo** 🖼️ representativo de la aplicación, brindando identidad visual.
 2. **Entrada de Ciudad**: Justo debajo del logo, se encuentra un campo de texto (`Entry`) donde el usuario puede escribir el nombre de la **ciudad** ✍️ de la que desea conocer el **clima**.
