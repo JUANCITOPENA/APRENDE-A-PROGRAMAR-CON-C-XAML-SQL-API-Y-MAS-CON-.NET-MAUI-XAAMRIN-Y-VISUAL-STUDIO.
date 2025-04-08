@@ -236,6 +236,26 @@ namespace App45
 }
 ```
 
+# 🌦 Variación con ciudad por defecto: Santo Domingo
+
+En esta variación, hemos implementado una ciudad por defecto en la aplicación de clima. **Al iniciar, la app mostrará automáticamente el clima de Santo Domingo**, permitiendo que el usuario tenga información climática sin necesidad de ingresar una ciudad manualmente.  
+
+## 🔹 ¿Qué hemos hecho?
+- ✅ **Establecemos "Santo Domingo" como ciudad predeterminada**, asegurando que los datos climáticos se carguen en cuanto la app se abre.  
+- ✅ **Modificamos el constructor `MainPage()`** para asignar `"Santo Domingo"` al campo de entrada y llamar a `GetWeather()`.  
+- ✅ **Refactorizamos la estructura del código**, separando la solicitud de clima en `GetWeather()`, lo que mejora la reutilización y permite actualizar los datos dinámicamente.  
+- ✅ **Permitimos que el usuario cambie de ciudad** cuando lo desee, ingresando un nuevo nombre y presionando el botón.  
+- ✅ **Mejoramos los mensajes de alerta**, usando **emojis** y textos más intuitivos.  
+- ✅ **Optimizamos la experiencia del usuario**, reduciendo pasos innecesarios para obtener información climática rápidamente.  
+
+## 🔍 ¿Qué mejoras vemos con esta actualización?
+- 🚀 **Experiencia más fluida**: el usuario **no tiene que ingresar una ciudad inicial** manualmente.  
+- 🛠 **Código más modular y reutilizable**, lo que facilita futuras mejoras como geolocalización o historial de búsquedas.  
+- 🎨 **Interfaz más atractiva**, gracias a la inclusión de emojis y mensajes más claros.  
+
+Con este ajuste, la app se vuelve **más intuitiva y funcional**. ¿Quieres que agreguemos alguna otra mejora, como el almacenamiento de ciudades favoritas? 😃
+
+
 ### MainPage.xaml.cs (versión mejorada con ciudad por defecto)
 
 ```csharp
