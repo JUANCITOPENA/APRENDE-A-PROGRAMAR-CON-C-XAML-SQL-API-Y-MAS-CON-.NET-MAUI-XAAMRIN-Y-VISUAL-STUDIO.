@@ -1,7 +1,5 @@
 # 📱🌦️ Aplicación del Clima en Xamarin.Forms con OpenWeatherMap ☁️
 
-Este script en **Markdown** te proporciona una base completa para una aplicación móvil en **Xamarin.Forms** que muestra información del **clima** ☀️ usando la **API** de **OpenWeatherMap**. A continuación, encontrarás una descripción detallada de cada componente del código, cómo se integran, de dónde provienen los datos, una explicación de los **parámetros** y **protocolos** involucrados, todo en un solo lugar.
-
 ## 🗺️ Descripción General
 
 El objetivo de este proyecto es crear una **aplicación** intuitiva que permita a los usuarios consultar el **clima** actual de cualquier **ciudad** 🏙️ simplemente ingresando su nombre. Utilizamos **Xamarin.Forms**, un marco de desarrollo multiplataforma que facilita la creación de aplicaciones nativas para **iOS**, **Android** y **Windows** con una única base de código. Para obtener los datos del **clima** en tiempo real, la aplicación se conecta a la **API** de **OpenWeatherMap**, un servicio web confiable y actualizado.
