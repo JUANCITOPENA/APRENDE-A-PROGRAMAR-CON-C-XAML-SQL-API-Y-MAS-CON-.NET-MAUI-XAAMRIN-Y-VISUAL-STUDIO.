@@ -148,7 +148,7 @@ namespace App45
     public partial class MainPage : ContentPage
     {
         // Clave de API para acceder a OpenWeatherMap
-        private const string ApiKey = "12e717669f6d0f7358f106ac8ab9528b";
+        private const string ApiKey = "xxxx: xxxx-xxxx-xxxx-xxxx-xxxx-xxxx-xxxx-xxxx";
 
         // URL base de la API con parámetros para ciudad y clave de API
         private const string ApiUrl = "https://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}&units=metric";
@@ -270,7 +270,7 @@ namespace App45  // Define el espacio de nombres para la aplicación.
 {
     public partial class MainPage : ContentPage  // Declara la clase MainPage, que hereda de ContentPage, la cual es una página de la interfaz de usuario en Xamarin.
     {
-        private const string ApiKey = "12e717669f6d0f7358f106ac8ab9528b";  // Clave de la API de OpenWeatherMap para acceder a los datos del clima.
+        private const string ApiKey = "xxxx: xxxx-xxxx-xxxx-xxxx-xxxx-xxxx-xxxx-xxxx";  // Clave de la API de OpenWeatherMap para acceder a los datos del clima.
         private const string ApiUrl = "https://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}&units=metric";  // URL de la API con el formato para realizar la solicitud del clima.
 
         public MainPage()  // Constructor de la clase MainPage, se ejecuta al crear la página.
@@ -375,7 +375,7 @@ Antes de comenzar, asegúrate de instalar las bibliotecas necesarias:
 1. Regístrate en [OpenWeatherMap](https://openweathermap.org/)
 2. Ve a la sección de API Keys
 3. Genera una nueva clave API
-4. Reemplaza `12e717669f6d0f7358f106ac8ab9528b` con tu clave real en el código
+4. Reemplaza `xxxx: xxxx-xxxx-xxxx-xxxx-xxxx-xxxx-xxxx-xxxx` con tu clave real en el código
 
 ### Manejo de Errores
 El código incluye un manejo básico de errores. Para mejorar la robustez de la aplicación, considera:
