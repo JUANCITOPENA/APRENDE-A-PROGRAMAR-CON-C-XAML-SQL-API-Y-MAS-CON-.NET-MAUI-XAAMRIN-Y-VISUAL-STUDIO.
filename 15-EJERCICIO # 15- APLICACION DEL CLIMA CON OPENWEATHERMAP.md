@@ -136,90 +136,101 @@ https://api.openweathermap.org/data/2.5/weather
 ### MainPage.xaml.cs (versión básica)
 
 ```csharp
-using System;
-using Xamarin.Forms;
-using System.Net.Http;
-using System.Threading.Tasks;
-using Newtonsoft.Json.Linq;
-using System.Globalization;
+using System; // Importa funciones básicas de C#
+using Xamarin.Forms; // Librería para crear interfaces móviles con Xamarin
+using System.Net.Http; // Permite hacer solicitudes HTTP a la API del clima
+using System.Threading.Tasks; // Manejo de tareas asíncronas
+using Newtonsoft.Json.Linq; // Facilita el procesamiento de datos JSON
+using System.Globalization; // Ayuda a manejar formatos de fecha y hora
 
 namespace App45
 {
     public partial class MainPage : ContentPage
     {
+        // Clave de API para acceder a OpenWeatherMap
         private const string ApiKey = "12e717669f6d0f7358f106ac8ab9528b";
+
+        // URL base de la API con parámetros para ciudad y clave de API
         private const string ApiUrl = "https://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}&units=metric";
 
         public MainPage()
         {
-            InitializeComponent();
+            InitializeComponent(); // Inicializa la interfaz de usuario
         }
 
+        // Método que se ejecuta al presionar el botón de obtener clima
         private async void GetWeatherButtonClicked(object sender, EventArgs e)
         {
-            string city = cityEntry.Text;
-            if (string.IsNullOrWhiteSpace(city))
+            string city = cityEntry.Text; // Obtiene el nombre de la ciudad desde la entrada de usuario
+
+            if (string.IsNullOrWhiteSpace(city)) // Verifica que el usuario haya ingresado una ciudad
             {
-                await DisplayAlert("Error", "Por favor, ingresa una ciudad.", "OK");
-                return;
+                await DisplayAlert("Error", "Por favor, ingresa una ciudad.", "OK"); // Muestra un mensaje de error si está vacío
+                return; // Termina la ejecución del método
             }
 
+            // Construcción de la URL con la ciudad ingresada y la clave API
             string apiUrl = string.Format(ApiUrl, city, ApiKey);
-            using (HttpClient client = new HttpClient())
+
+            using (HttpClient client = new HttpClient()) // Se crea una instancia de HttpClient para la solicitud HTTP
             {
                 try
                 {
-                    string response = await client.GetStringAsync(apiUrl);
-                    JObject json = JObject.Parse(response);
+                    string response = await client.GetStringAsync(apiUrl); // Realiza la solicitud HTTP y obtiene la respuesta en formato JSON
+                    JObject json = JObject.Parse(response); // Convierte la respuesta JSON en un objeto JObject para procesarla
 
-                    string cityName = json["name"]?.ToString();
-                    double temperature = json["main"]["temp"].ToObject<double>();
-                    double feelsLike = json["main"]["feels_like"].ToObject<double>();
-                    int humidity = json["main"]["humidity"].ToObject<int>();
-                    int pressure = json["main"]["pressure"].ToObject<int>();
-                    double windSpeed = json["wind"]["speed"].ToObject<double>();
-                    string description = json["weather"][0]["description"]?.ToString();
-                    double tempMin = json["main"]["temp_min"].ToObject<double>();
-                    double tempMax = json["main"]["temp_max"].ToObject<double>();
+                    // Extrae la información del JSON
+                    string cityName = json["name"]?.ToString(); // Nombre de la ciudad
+                    double temperature = json["main"]["temp"].ToObject<double>(); // Temperatura actual
+                    double feelsLike = json["main"]["feels_like"].ToObject<double>(); // Sensación térmica
+                    int humidity = json["main"]["humidity"].ToObject<int>(); // Humedad en porcentaje
+                    int pressure = json["main"]["pressure"].ToObject<int>(); // Presión atmosférica en hPa
+                    double windSpeed = json["wind"]["speed"].ToObject<double>(); // Velocidad del viento en m/s
+                    string description = json["weather"][0]["description"]?.ToString(); // Descripción textual del clima
+                    double tempMin = json["main"]["temp_min"].ToObject<double>(); // Temperatura mínima
+                    double tempMax = json["main"]["temp_max"].ToObject<double>(); // Temperatura máxima
 
-                    long sunriseUnix = json["sys"]["sunrise"].ToObject<long>();
-                    long sunsetUnix = json["sys"]["sunset"].ToObject<long>();
-                    DateTime sunrise = DateTimeOffset.FromUnixTimeSeconds(sunriseUnix).ToLocalTime().DateTime;
-                    DateTime sunset = DateTimeOffset.FromUnixTimeSeconds(sunsetUnix).ToLocalTime().DateTime;
+                    // Conversión de tiempo de amanecer y atardecer desde formato Unix
+                    long sunriseUnix = json["sys"]["sunrise"].ToObject<long>(); // Tiempo de amanecer en formato Unix
+                    long sunsetUnix = json["sys"]["sunset"].ToObject<long>(); // Tiempo de atardecer en formato Unix
+                    DateTime sunrise = DateTimeOffset.FromUnixTimeSeconds(sunriseUnix).ToLocalTime().DateTime; // Convierte Unix a DateTime
+                    DateTime sunset = DateTimeOffset.FromUnixTimeSeconds(sunsetUnix).ToLocalTime().DateTime; // Convierte Unix a DateTime
 
+                    // Determina el emoji basado en la descripción del clima
                     string emoji = GetWeatherEmoji(description);
 
-                    // Asignaciones con emojis
-                    cityLabel.Text = $"{cityName} ☀️"; // Sol para indicar ubicación
-                    temperatureLabel.Text = $"{temperature:F1} °C 🌡️"; // Termómetro para temperatura
-                    feelsLikeLabel.Text = $"Sensación térmica: {feelsLike:F1} °C 🔥"; // Fuego para sensación térmica
-                    descriptionLabel.Text = $"{description} {emoji}"; // Emoji según condición climática
-                    humidityLabel.Text = $"Humedad: {humidity}% 💧"; // Gota de agua para humedad
-                    pressureLabel.Text = $"Presión: {pressure} hPa 🌪️"; // Tornado para presión atmosférica
-                    windLabel.Text = $"Viento: {windSpeed} m/s 🍃"; // Hoja al viento para velocidad del viento
-                    minMaxLabel.Text = $"Mín: {tempMin:F1} °C | Máx: {tempMax:F1} °C 📈"; // Gráfico para mínimos y máximos
-                    sunriseLabel.Text = $"🌅 Amanecer: {sunrise:HH:mm}"; // Sol naciente para amanecer
-                    sunsetLabel.Text = $"🌇 Atardecer: {sunset:HH:mm}"; // Sol poniéndose para atardecer
+                    // Asigna los valores a los elementos de la interfaz de usuario con emojis
+                    cityLabel.Text = $"{cityName} ☀️"; // Muestra el nombre de la ciudad con un emoji de sol
+                    temperatureLabel.Text = $"{temperature:F1} °C 🌡️"; // Muestra temperatura con emoji de termómetro
+                    feelsLikeLabel.Text = $"Sensación térmica: {feelsLike:F1} °C 🔥"; // Muestra sensación térmica con emoji de fuego
+                    descriptionLabel.Text = $"{description} {emoji}"; // Muestra la descripción del clima con el emoji adecuado
+                    humidityLabel.Text = $"Humedad: {humidity}% 💧"; // Muestra humedad con gota de agua
+                    pressureLabel.Text = $"Presión: {pressure} hPa 🌪️"; // Muestra presión con emoji de tornado
+                    windLabel.Text = $"Viento: {windSpeed} m/s 🍃"; // Muestra velocidad del viento con hoja al viento
+                    minMaxLabel.Text = $"Mín: {tempMin:F1} °C | Máx: {tempMax:F1} °C 📈"; // Muestra temperatura mínima y máxima con gráfico
+                    sunriseLabel.Text = $"🌅 Amanecer: {sunrise:HH:mm}"; // Muestra hora del amanecer con sol naciente
+                    sunsetLabel.Text = $"🌇 Atardecer: {sunset:HH:mm}"; // Muestra hora del atardecer con sol poniéndose
 
-                    weatherCard.IsVisible = true;
+                    weatherCard.IsVisible = true; // Hace visible el contenedor con los datos del clima
                 }
                 catch (Exception ex)
                 {
-                    await DisplayAlert("Error", $"Error al obtener el clima: {ex.Message}", "OK");
+                    await DisplayAlert("Error", $"Error al obtener el clima: {ex.Message}", "OK"); // Muestra alerta si ocurre un error
                 }
             }
         }
 
+        // Método para determinar el emoji según la descripción del clima
         private string GetWeatherEmoji(string description)
         {
-            description = description.ToLower();
-            if (description.Contains("clear")) return "☀️";
-            if (description.Contains("clouds")) return "☁️";
-            if (description.Contains("rain")) return "🌧️";
-            if (description.Contains("snow")) return "❄️";
-            if (description.Contains("storm")) return "⛈️";
-            if (description.Contains("fog") || description.Contains("mist")) return "🌫️";
-            return "❓";
+            description = description.ToLower(); // Convierte la descripción a minúsculas para facilitar la comparación
+            if (description.Contains("clear")) return "☀️"; // Cielo despejado
+            if (description.Contains("clouds")) return "☁️"; // Nublado
+            if (description.Contains("rain")) return "🌧️"; // Lluvia
+            if (description.Contains("snow")) return "❄️"; // Nieve
+            if (description.Contains("storm")) return "⛈️"; // Tormenta
+            if (description.Contains("fog") || description.Contains("mist")) return "🌫️"; // Niebla
+            return "❓"; // Descripción desconocida
         }
     }
 }
