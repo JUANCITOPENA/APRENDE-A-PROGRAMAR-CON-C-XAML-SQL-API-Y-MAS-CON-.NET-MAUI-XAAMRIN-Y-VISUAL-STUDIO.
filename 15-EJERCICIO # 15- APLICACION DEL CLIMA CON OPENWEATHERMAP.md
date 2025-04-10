@@ -95,6 +95,10 @@ La lógica principal de la aplicación se centra en la comunicación con la **AP
 
 La **API** permite obtener datos esenciales como **temperaturas**, **humedad**, **presión atmosférica**, **velocidad del viento**, y mucho más, facilitando la creación de aplicaciones del **clima** precisas y completas.
 
+![Descripción de la imagen](imagenes/Screenshot_329.png)
+
+![Descripción de la imagen](imagenes/Screenshot_329.png)
+
 ### 🔗 URL Base de la API:
 
 ```bash
