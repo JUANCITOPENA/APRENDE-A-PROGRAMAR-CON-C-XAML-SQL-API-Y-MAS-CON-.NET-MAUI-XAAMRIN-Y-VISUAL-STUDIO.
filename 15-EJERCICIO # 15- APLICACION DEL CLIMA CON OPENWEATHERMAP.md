@@ -21,8 +21,56 @@ La **interfaz de usuario** de la aplicación ha sido diseñada para ser limpia y
    * **Humedad** 💧
    * **Velocidad del Viento** 🌬️
    * Y otros detalles relevantes del **clima** actual.
+  
+# ✅ Conceptos de API y API REST
 
-### 🧠 Lógica del Código
+## 🌐 ¿Qué es una API?
+Una API (Interfaz de Programación de Aplicaciones) es un conjunto de reglas y definiciones que permite a diferentes programas comunicarse entre sí. Las API facilitan la integración de diferentes sistemas y servicios, permitiendo el intercambio de datos y funcionalidades.
+
+## 🏗️ API REST
+REST (Representational State Transfer) es un estilo arquitectónico que define cómo las APIs deben estructurarse para ser escalables y eficientes. Una API REST sigue estos principios:
+
+- [x] **Cliente-servidor**: Separación entre cliente y servidor.
+- [x] **Sin estado**: Cada petición contiene la información necesaria para procesarla, sin necesidad de recordar estados previos.
+- [x] **Cacheable**: Los datos pueden almacenarse temporalmente para mejorar el rendimiento.
+- [x] **Interfaz uniforme**: Se utilizan métodos HTTP estándar para la comunicación.
+
+## 🔗 Protocolos en API REST
+Los protocolos de comunicación más utilizados en APIs incluyen:
+
+- [x] **HTTP**: Protocolo de transferencia de hipertexto utilizado en la web.
+- [x] **HTTPS**: Versión segura de HTTP que cifra la comunicación.
+- [x] **WebSockets**: Protocolo para comunicación bidireccional en tiempo real.
+
+# 🛠️ HTTPClient
+Es una biblioteca utilizada para realizar peticiones HTTP desde el cliente a una API REST. HTTPClient facilita la comunicación con servidores web, permitiendo el envío de datos y la recepción de respuestas.
+
+# 📝 CRUD en API REST
+CRUD se refiere a las operaciones básicas que se pueden realizar sobre los datos:
+
+- [x] **Create** (POST): Crear un nuevo recurso.
+- [x] **Read** (GET): Obtener información de un recurso.
+- [x] **Update** (PUT/PATCH): Modificar un recurso existente.
+- [x] **Delete** (DELETE): Eliminar un recurso.
+
+# ⏳ Peticiones Asíncronas y Sincrónicas
+- [x] **Sincrónicas**: La ejecución del código espera la respuesta de la API antes de continuar.
+- [x] **Asíncronas**: La ejecución del código no espera la respuesta, permitiendo otras operaciones mientras se obtiene la respuesta.
+
+# 🏛️ Modelo Cliente-Servidor-API
+En una arquitectura típica de API:
+
+1. **El Cliente** 🖥️ realiza una solicitud HTTP.
+2. **El Servidor** 💾 recibe la solicitud y consulta o modifica los datos.
+3. **La API** 🔗 actúa como intermediaria entre el cliente y la base de datos, respondiendo con la información solicitada.
+
+# 🌦️ API del Clima: OpenWeatherMap
+OpenWeatherMap es una API REST que proporciona datos meteorológicos. Un ejemplo de solicitud podría ser:
+
+```http
+GET https://api.openweathermap.org/data/2.5/weather?q=Santo%20Domingo&appid=TU_API_KEY  
+```
+# 🧠 Lógica del Código
 
 La lógica principal de la aplicación se centra en la comunicación con la **API** de **OpenWeatherMap** para obtener la información del **clima**.
 
