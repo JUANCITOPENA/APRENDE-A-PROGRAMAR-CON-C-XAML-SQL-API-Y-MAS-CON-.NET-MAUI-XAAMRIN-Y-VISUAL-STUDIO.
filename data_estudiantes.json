@@ -1,0 +1,301 @@
+[
+  {
+    "matricula": "2024-0001",
+    "nombre": "Ana",
+    "apellido": "García Pérez",
+    "materia": "Programacion Movil con Xamarin y MAUI",
+    "profesor": "Juancito Peña",
+    "notas": {
+      "asistencia": 95,
+      "practica": 88,
+      "parcial": 75,
+      "final": 82
+    }
+  },
+  {
+    "matricula": "2024-0002",
+    "nombre": "Luis",
+    "apellido": "Martínez Rodríguez",
+    "materia": "Programacion Movil con Xamarin y MAUI",
+    "profesor": "Juancito Peña",
+    "notas": {
+      "asistencia": 100,
+      "practica": 92,
+      "parcial": 85,
+      "final": 90
+    }
+  },
+  {
+    "matricula": "2024-0003",
+    "nombre": "Sofía",
+    "apellido": "López Hernández",
+    "materia": "Programacion Movil con Xamarin y MAUI",
+    "profesor": "Juancito Peña",
+    "notas": {
+      "asistencia": 80,
+      "practica": 70,
+      "parcial": 65,
+      "final": 72
+    }
+  },
+  {
+    "matricula": "2024-0004",
+    "nombre": "Carlos",
+    "apellido": "Sánchez Gómez",
+    "materia": "Programacion Movil con Xamarin y MAUI",
+    "profesor": "Juancito Peña",
+    "notas": {
+      "asistencia": 90,
+      "practica": 85,
+      "parcial": 80,
+      "final": 88
+    }
+  },
+  {
+    "matricula": "2024-0005",
+    "nombre": "Laura",
+    "apellido": "Díaz Fernández",
+    "materia": "Programacion Movil con Xamarin y MAUI",
+    "profesor": "Juancito Peña",
+    "notas": {
+      "asistencia": 75,
+      "practica": 60,
+      "parcial": 50,
+      "final": 65
+    }
+  },
+  {
+    "matricula": "2024-0006",
+    "nombre": "Pedro",
+    "apellido": "Moreno Jiménez",
+    "materia": "Programacion Movil con Xamarin y MAUI",
+    "profesor": "Juancito Peña",
+    "notas": {
+      "asistencia": 98,
+      "practica": 95,
+      "parcial": 92,
+      "final": 96
+    }
+  },
+  {
+    "matricula": "2024-0007",
+    "nombre": "Elena",
+    "apellido": "Álvarez Ruiz",
+    "materia": "Programacion Movil con Xamarin y MAUI",
+    "profesor": "Juancito Peña",
+    "notas": {
+      "asistencia": 88,
+      "practica": 78,
+      "parcial": 70,
+      "final": 79
+    }
+  },
+  {
+    "matricula": "2024-0008",
+    "nombre": "David",
+    "apellido": "Romero Navarro",
+    "materia": "Programacion Movil con Xamarin y MAUI",
+    "profesor": "Juancito Peña",
+    "notas": {
+      "asistencia": 92,
+      "practica": 80,
+      "parcial": 82,
+      "final": 85
+    }
+  },
+  {
+    "matricula": "2024-0009",
+    "nombre": "Carmen",
+    "apellido": "Torres Domínguez",
+    "materia": "Programacion Movil con Xamarin y MAUI",
+    "profesor": "Juancito Peña",
+    "notas": {
+      "asistencia": 100,
+      "practica": 90,
+      "parcial": 88,
+      "final": 91
+    }
+  },
+  {
+    "matricula": "2024-0010",
+    "nombre": "Juan",
+    "apellido": "Vázquez Ramos",
+    "materia": "Programacion Movil con Xamarin y MAUI",
+    "profesor": "Juancito Peña",
+    "notas": {
+      "asistencia": 70,
+      "practica": 65,
+      "parcial": 55,
+      "final": 68
+    }
+  },
+  {
+    "matricula": "2024-0011",
+    "nombre": "Paula",
+    "apellido": "Gil Blanco",
+    "materia": "Programacion Movil con Xamarin y MAUI",
+    "profesor": "Juancito Peña",
+    "notas": {
+      "asistencia": 96,
+      "practica": 89,
+      "parcial": 83,
+      "final": 87
+    }
+  },
+  {
+    "matricula": "2024-0012",
+    "nombre": "Miguel",
+    "apellido": "Santos Ortega",
+    "materia": "Programacion Movil con Xamarin y MAUI",
+    "profesor": "Juancito Peña",
+    "notas": {
+      "asistencia": 85,
+      "practica": 75,
+      "parcial": 72,
+      "final": 80
+    }
+  },
+  {
+    "matricula": "2024-0013",
+    "nombre": "Isabel",
+    "apellido": "Guerrero Molina",
+    "materia": "Programacion Movil con Xamarin y MAUI",
+    "profesor": "Juancito Peña",
+    "notas": {
+      "asistencia": 93,
+      "practica": 91,
+      "parcial": 90,
+      "final": 94
+    }
+  },
+  {
+    "matricula": "2024-0014",
+    "nombre": "Javier",
+    "apellido": "Cano Herrera",
+    "materia": "Programacion Movil con Xamarin y MAUI",
+    "profesor": "Juancito Peña",
+    "notas": {
+      "asistencia": 82,
+      "practica": 72,
+      "parcial": 68,
+      "final": 75
+    }
+  },
+  {
+    "matricula": "2024-0015",
+    "nombre": "Lucía",
+    "apellido": "Marín Medina",
+    "materia": "Programacion Movil con Xamarin y MAUI",
+    "profesor": "Juancito Peña",
+    "notas": {
+      "asistencia": 97,
+      "practica": 86,
+      "parcial": 79,
+      "final": 84
+    }
+  },
+  {
+    "matricula": "2024-0016",
+    "nombre": "Fernando",
+    "apellido": "Rubio Castillo",
+    "materia": "Programacion Movil con Xamarin y MAUI",
+    "profesor": "Juancito Peña",
+    "notas": {
+      "asistencia": 78,
+      "practica": 68,
+      "parcial": 60,
+      "final": 70
+    }
+  },
+  {
+    "matricula": "2024-0017",
+    "nombre": "Marta",
+    "apellido": "Iglesias Vidal",
+    "materia": "Programacion Movil con Xamarin y MAUI",
+    "profesor": "Juancito Peña",
+    "notas": {
+      "asistencia": 99,
+      "practica": 94,
+      "parcial": 91,
+      "final": 95
+    }
+  },
+  {
+    "matricula": "2024-0018",
+    "nombre": "Daniel",
+    "apellido": "Nuñez Crespo",
+    "materia": "Programacion Movil con Xamarin y MAUI",
+    "profesor": "Juancito Peña",
+    "notas": {
+      "asistencia": 89,
+      "practica": 81,
+      "parcial": 77,
+      "final": 83
+    }
+  },
+  {
+    "matricula": "2024-0019",
+    "nombre": "Claudia",
+    "apellido": "Gallego Soto",
+    "materia": "Programacion Movil con Xamarin y MAUI",
+    "profesor": "Juancito Peña",
+    "notas": {
+      "asistencia": 91,
+      "practica": 83,
+      "parcial": 76,
+      "final": 81
+    }
+  },
+  {
+    "matricula": "2024-0020",
+    "nombre": "Sergio",
+    "apellido": "Reyes Morales",
+    "materia": "Programacion Movil con Xamarin y MAUI",
+    "profesor": "Juancito Peña",
+    "notas": {
+      "asistencia": 84,
+      "practica": 77,
+      "parcial": 71,
+      "final": 78
+    }
+  },
+  {
+    "matricula": "2024-0021",
+    "nombre": "Andrea",
+    "apellido": "Vega Pascual",
+    "materia": "Programacion Movil con Xamarin y MAUI",
+    "profesor": "Juancito Peña",
+    "notas": {
+      "asistencia": 94,
+      "practica": 87,
+      "parcial": 84,
+      "final": 89
+    }
+  },
+  {
+    "matricula": "2024-0022",
+    "nombre": "Marcos",
+    "apellido": "Lorenzo Ibañez",
+    "materia": "Programacion Movil con Xamarin y MAUI",
+    "profesor": "Juancito Peña",
+    "notas": {
+      "asistencia": 86,
+      "practica": 79,
+      "parcial": 73,
+      "final": 77
+    }
+  },
+  {
+    "matricula": "2024-0023",
+    "nombre": "Patricia",
+    "apellido": "Arias Garrido",
+    "materia": "Programacion Movil con Xamarin y MAUI",
+    "profesor": "Juancito Peña",
+    "notas": {
+      "asistencia": 90,
+      "practica": 93,
+      "parcial": 89,
+      "final": 92
+    }
+  }
+]
