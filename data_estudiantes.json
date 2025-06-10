@@ -1,370 +1,143 @@
 [
   {
-    "matricula": "101-nsin-1-001",
+    "matricula": "PDM-101",
     "nombre": "Ana",
     "apellido": "García Pérez",
     "genero": "Femenino",
-    "materia": "Programacion Movil con Xamarin y MAUI",
+    "materia": "Programación Dispositivos Móviles",
+    "dia_clase": "Lunes y Miércoles",
     "profesor_nombre": "Juancito Peña",
     "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
     "estudiante_foto": "https://randomuser.me/api/portraits/women/1.jpg",
-    "notas": {
-      "asistencia": 9,
-      "practica": 18,
-      "parcial": 15,
-      "final": 40
-    }
+    "notas": { "asistencia": 9, "practica": 18, "parcial": 15, "final": 40 }
   },
   {
-    "matricula": "235-nsin-2-002",
+    "matricula": "PDM-102",
     "nombre": "Luis",
     "apellido": "Martínez Rodríguez",
     "genero": "Masculino",
-    "materia": "Programacion Movil con Xamarin y MAUI",
+    "materia": "Programación Dispositivos Móviles",
+    "dia_clase": "Lunes y Miércoles",
     "profesor_nombre": "Juancito Peña",
     "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
     "estudiante_foto": "https://randomuser.me/api/portraits/men/2.jpg",
-    "notas": {
-      "asistencia": 10,
-      "practica": 20,
-      "parcial": 18,
-      "final": 48
-    }
+    "notas": { "asistencia": 10, "practica": 20, "parcial": 18, "final": 48 }
   },
+  // ... más estudiantes para Programación Dispositivos Móviles
   {
-    "matricula": "478-nsin-0-003",
+    "matricula": "IA-201",
     "nombre": "Sofía",
     "apellido": "López Hernández",
     "genero": "Femenino",
-    "materia": "Programacion Movil con Xamarin y MAUI",
+    "materia": "Inteligencia Artificial",
+    "dia_clase": "Martes y Jueves",
     "profesor_nombre": "Juancito Peña",
     "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
     "estudiante_foto": "https://randomuser.me/api/portraits/women/3.jpg",
-    "notas": {
-      "asistencia": 7,
-      "practica": 12,
-      "parcial": 10,
-      "final": 30
-    }
+    "notas": { "asistencia": 8, "practica": 19, "parcial": 17, "final": 42 }
   },
   {
-    "matricula": "512-nsin-1-004",
+    "matricula": "IA-202",
     "nombre": "Carlos",
     "apellido": "Sánchez Gómez",
     "genero": "Masculino",
-    "materia": "Programacion Movil con Xamarin y MAUI",
+    "materia": "Inteligencia Artificial",
+    "dia_clase": "Martes y Jueves",
     "profesor_nombre": "Juancito Peña",
     "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
     "estudiante_foto": "https://randomuser.me/api/portraits/men/4.jpg",
-    "notas": {
-      "asistencia": 8,
-      "practica": 15,
-      "parcial": 16,
-      "final": 42
-    }
+    "notas": { "asistencia": 7, "practica": 15, "parcial": 16, "final": 38 }
   },
+  // ... más estudiantes para Inteligencia Artificial
   {
-    "matricula": "333-nsin-3-005",
+    "matricula": "ROB-301",
     "nombre": "Laura",
     "apellido": "Díaz Fernández",
     "genero": "Femenino",
-    "materia": "Programacion Movil con Xamarin y MAUI",
+    "materia": "Robótica",
+    "dia_clase": "Viernes",
     "profesor_nombre": "Juancito Peña",
     "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
     "estudiante_foto": "https://randomuser.me/api/portraits/women/5.jpg",
-    "notas": {
-      "asistencia": 6,
-      "practica": 10,
-      "parcial": 8,
-      "final": 25
-    }
+    "notas": { "asistencia": 10, "practica": 20, "parcial": 20, "final": 49 }
   },
   {
-    "matricula": "609-nsin-0-006",
+    "matricula": "ROB-302",
     "nombre": "Pedro",
     "apellido": "Moreno Jiménez",
     "genero": "Masculino",
-    "materia": "Programacion Movil con Xamarin y MAUI",
+    "materia": "Robótica",
+    "dia_clase": "Viernes",
     "profesor_nombre": "Juancito Peña",
     "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
     "estudiante_foto": "https://randomuser.me/api/portraits/men/6.jpg",
-    "notas": {
-      "asistencia": 10,
-      "practica": 19,
-      "parcial": 19,
-      "final": 50
-    }
+    "notas": { "asistencia": 6, "practica": 12, "parcial": 10, "final": 25 }
   },
+  // ... más estudiantes para Robótica
   {
-    "matricula": "771-nsin-1-007",
+    "matricula": "TIP-401",
     "nombre": "Elena",
     "apellido": "Álvarez Ruiz",
     "genero": "Femenino",
-    "materia": "Programacion Movil con Xamarin y MAUI",
+    "materia": "Telefonía IP",
+    "dia_clase": "Sábado",
     "profesor_nombre": "Juancito Peña",
     "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
     "estudiante_foto": "https://randomuser.me/api/portraits/women/7.jpg",
-    "notas": {
-      "asistencia": 9,
-      "practica": 16,
-      "parcial": 14,
-      "final": 38
-    }
+    "notas": { "asistencia": 9, "practica": 17, "parcial": 18, "final": 44 }
   },
+  // ... y así para las demás materias:
+  // "Diseño de Interfaz y Multimedia" (ej. Lunes),
+  // "Diseño de Centro de Datos" (ej. Martes),
+  // "Análisis de Datos y Data Mining" (ej. Jueves)
+
+  // Ejemplo para asegurar la correcta asignación de género/foto
   {
-    "matricula": "824-nsin-2-008",
-    "nombre": "David",
-    "apellido": "Romero Navarro",
-    "genero": "Masculino",
-    "materia": "Programacion Movil con Xamarin y MAUI",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/men/8.jpg",
-    "notas": {
-      "asistencia": 8,
-      "practica": 17,
-      "parcial": 17,
-      "final": 45
-    }
-  },
-  {
-    "matricula": "903-nsin-0-009",
-    "nombre": "Carmen",
-    "apellido": "Torres Domínguez",
+    "matricula": "DIM-501",
+    "nombre": "Valentina",
+    "apellido": "Rojas Silva",
     "genero": "Femenino",
-    "materia": "Programacion Movil con Xamarin y MAUI",
+    "materia": "Diseño de Interfaz y Multimedia",
+    "dia_clase": "Lunes",
     "profesor_nombre": "Juancito Peña",
     "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/women/9.jpg",
-    "notas": {
-      "asistencia": 10,
-      "practica": 18,
-      "parcial": 18,
-      "final": 47
-    }
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/25.jpg", // Asegurar foto femenina
+    "notas": { "asistencia": 8, "practica": 18, "parcial": 16, "final": 41 }
   },
   {
-    "matricula": "112-nsin-1-010",
-    "nombre": "Juan",
-    "apellido": "Vázquez Ramos",
+    "matricula": "DIM-502",
+    "nombre": "Mateo",
+    "apellido": "Castro Vargas",
     "genero": "Masculino",
-    "materia": "Programacion Movil con Xamarin y MAUI",
+    "materia": "Diseño de Interfaz y Multimedia",
+    "dia_clase": "Lunes",
     "profesor_nombre": "Juancito Peña",
     "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/men/10.jpg",
-    "notas": {
-      "asistencia": 5,
-      "practica": 8,
-      "parcial": 7,
-      "final": 20
-    }
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/26.jpg", // Asegurar foto masculina
+    "notas": { "asistencia": 9, "practica": 19, "parcial": 19, "final": 47 }
   },
   {
-    "matricula": "256-nsin-2-011",
-    "nombre": "Paula",
-    "apellido": "Gil Blanco",
+    "matricula": "DCD-601",
+    "nombre": "Isabella",
+    "apellido": "Mora Guzman",
     "genero": "Femenino",
-    "materia": "Programacion Movil con Xamarin y MAUI",
+    "materia": "Diseño de Centro de Datos",
+    "dia_clase": "Martes",
     "profesor_nombre": "Juancito Peña",
     "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/women/11.jpg",
-    "notas": {
-      "asistencia": 9,
-      "practica": 19,
-      "parcial": 16,
-      "final": 43
-    }
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/27.jpg",
+    "notas": { "asistencia": 10, "practica": 20, "parcial": 18, "final": 45 }
   },
   {
-    "matricula": "390-nsin-0-012",
-    "nombre": "Miguel",
-    "apellido": "Santos Ortega",
+    "matricula": "ADM-701",
+    "nombre": "Santiago",
+    "apellido": "Ortega Flores",
     "genero": "Masculino",
-    "materia": "Programacion Movil con Xamarin y MAUI",
+    "materia": "Análisis de Datos y Data Mining",
+    "dia_clase": "Jueves",
     "profesor_nombre": "Juancito Peña",
     "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/men/12.jpg",
-    "notas": {
-      "asistencia": 7,
-      "practica": 14,
-      "parcial": 13,
-      "final": 35
-    }
-  },
-  {
-    "matricula": "444-nsin-1-013",
-    "nombre": "Isabel",
-    "apellido": "Guerrero Molina",
-    "genero": "Femenino",
-    "materia": "Programacion Movil con Xamarin y MAUI",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/women/13.jpg",
-    "notas": {
-      "asistencia": 10,
-      "practica": 20,
-      "parcial": 20,
-      "final": 49
-    }
-  },
-  {
-    "matricula": "581-nsin-3-014",
-    "nombre": "Javier",
-    "apellido": "Cano Herrera",
-    "genero": "Masculino",
-    "materia": "Programacion Movil con Xamarin y MAUI",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/men/14.jpg",
-    "notas": {
-      "asistencia": 8,
-      "practica": 13,
-      "parcial": 11,
-      "final": 33
-    }
-  },
-  {
-    "matricula": "629-nsin-0-015",
-    "nombre": "Lucía",
-    "apellido": "Marín Medina",
-    "genero": "Femenino",
-    "materia": "Programacion Movil con Xamarin y MAUI",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/women/15.jpg",
-    "notas": {
-      "asistencia": 9,
-      "practica": 17,
-      "parcial": 15,
-      "final": 41
-    }
-  },
-  {
-    "matricula": "733-nsin-1-016",
-    "nombre": "Fernando",
-    "apellido": "Rubio Castillo",
-    "genero": "Masculino",
-    "materia": "Programacion Movil con Xamarin y MAUI",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/men/16.jpg",
-    "notas": {
-      "asistencia": 7,
-      "practica": 11,
-      "parcial": 9,
-      "final": 28
-    }
-  },
-  {
-    "matricula": "888-nsin-2-017",
-    "nombre": "Marta",
-    "apellido": "Iglesias Vidal",
-    "genero": "Femenino",
-    "materia": "Programacion Movil con Xamarin y MAUI",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/women/17.jpg",
-    "notas": {
-      "asistencia": 10,
-      "practica": 19,
-      "parcial": 19,
-      "final": 46
-    }
-  },
-  {
-    "matricula": "915-nsin-0-018",
-    "nombre": "Daniel",
-    "apellido": "Nuñez Crespo",
-    "genero": "Masculino",
-    "materia": "Programacion Movil con Xamarin y MAUI",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/men/18.jpg",
-    "notas": {
-      "asistencia": 9,
-      "practica": 16,
-      "parcial": 17,
-      "final": 44
-    }
-  },
-  {
-    "matricula": "199-nsin-1-019",
-    "nombre": "Claudia",
-    "apellido": "Gallego Soto",
-    "genero": "Femenino",
-    "materia": "Programacion Movil con Xamarin y MAUI",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/women/19.jpg",
-    "notas": {
-      "asistencia": 8,
-      "practica": 18,
-      "parcial": 14,
-      "final": 39
-    }
-  },
-  {
-    "matricula": "207-nsin-3-020",
-    "nombre": "Sergio",
-    "apellido": "Reyes Morales",
-    "genero": "Masculino",
-    "materia": "Programacion Movil con Xamarin y MAUI",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/men/20.jpg",
-    "notas": {
-      "asistencia": 7,
-      "practica": 15,
-      "parcial": 12,
-      "final": 36
-    }
-  },
-  {
-    "matricula": "341-nsin-0-021",
-    "nombre": "Andrea",
-    "apellido": "Vega Pascual",
-    "genero": "Femenino",
-    "materia": "Programacion Movil con Xamarin y MAUI",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/women/21.jpg",
-    "notas": {
-      "asistencia": 10,
-      "practica": 17,
-      "parcial": 18,
-      "final": 45
-    }
-  },
-  {
-    "matricula": "469-nsin-1-022",
-    "nombre": "Marcos",
-    "apellido": "Lorenzo Ibañez",
-    "genero": "Masculino",
-    "materia": "Programacion Movil con Xamarin y MAUI",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/men/22.jpg",
-    "notas": {
-      "asistencia": 8,
-      "practica": 14,
-      "parcial": 13,
-      "final": 37
-    }
-  },
-  {
-    "matricula": "502-nsin-2-023",
-    "nombre": "Patricia",
-    "apellido": "Arias Garrido",
-    "genero": "Femenino",
-    "materia": "Programacion Movil con Xamarin y MAUI",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/women/23.jpg",
-    "notas": {
-      "asistencia": 9,
-      "practica": 19,
-      "parcial": 17,
-      "final": 49
-    }
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/28.jpg",
+    "notas": { "asistencia": 7, "practica": 16, "parcial": 17, "final": 40 }
   }
 ]
