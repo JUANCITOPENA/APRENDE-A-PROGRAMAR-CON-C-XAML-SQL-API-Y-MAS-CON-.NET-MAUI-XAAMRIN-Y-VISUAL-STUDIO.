@@ -23,7 +23,7 @@
     "estudiante_foto": "https://randomuser.me/api/portraits/men/2.jpg",
     "notas": { "asistencia": 10, "practica": 20, "parcial": 18, "final": 48 }
   },
-  // ... más estudiantes para Programación Dispositivos Móviles
+
   {
     "matricula": "IA-201",
     "nombre": "Sofía",
@@ -48,7 +48,7 @@
     "estudiante_foto": "https://randomuser.me/api/portraits/men/4.jpg",
     "notas": { "asistencia": 7, "practica": 15, "parcial": 16, "final": 38 }
   },
-  // ... más estudiantes para Inteligencia Artificial
+
   {
     "matricula": "ROB-301",
     "nombre": "Laura",
@@ -73,7 +73,7 @@
     "estudiante_foto": "https://randomuser.me/api/portraits/men/6.jpg",
     "notas": { "asistencia": 6, "practica": 12, "parcial": 10, "final": 25 }
   },
-  // ... más estudiantes para Robótica
+
   {
     "matricula": "TIP-401",
     "nombre": "Elena",
@@ -91,7 +91,7 @@
   // "Diseño de Centro de Datos" (ej. Martes),
   // "Análisis de Datos y Data Mining" (ej. Jueves)
 
-  // Ejemplo para asegurar la correcta asignación de género/foto
+
   {
     "matricula": "DIM-501",
     "nombre": "Valentina",
@@ -101,7 +101,7 @@
     "dia_clase": "Lunes",
     "profesor_nombre": "Juancito Peña",
     "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/women/25.jpg", // Asegurar foto femenina
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/25.jpg", 
     "notas": { "asistencia": 8, "practica": 18, "parcial": 16, "final": 41 }
   },
   {
@@ -113,7 +113,7 @@
     "dia_clase": "Lunes",
     "profesor_nombre": "Juancito Peña",
     "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/men/26.jpg", // Asegurar foto masculina
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/26.jpg", 
     "notas": { "asistencia": 9, "practica": 19, "parcial": 19, "final": 47 }
   },
   {
