@@ -1,338 +1,1634 @@
 [
   {
-    "matricula": "PDM-101-01",
-    "nombre": "Ana",
-    "apellido": "García Pérez",
+    "matricula": "PDM-001",
+    "nombre": "Oya",
+    "apellido": "Atakol",
     "genero": "Femenino",
     "materia": "Programación Dispositivos Móviles",
     "dia_clase": "Lunes y Miércoles (Mañana)",
     "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/women/1.jpg",
-    "notas": { "asistencia": 9, "practica": 18, "parcial": 15, "final": 40 }
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/46.jpg",
+    "notas": {
+      "asistencia": 7,
+      "practica": 19,
+      "parcial": 19,
+      "final": 49
+    }
   },
   {
-    "matricula": "PDM-102-01",
-    "nombre": "Luis",
-    "apellido": "Martínez Rodríguez",
+    "matricula": "PDM-002",
+    "nombre": "Brett",
+    "apellido": "Ellis",
     "genero": "Masculino",
     "materia": "Programación Dispositivos Móviles",
     "dia_clase": "Lunes y Miércoles (Mañana)",
     "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/men/2.jpg",
-    "notas": { "asistencia": 10, "practica": 20, "parcial": 18, "final": 48 }
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/77.jpg",
+    "notas": {
+      "asistencia": 8,
+      "practica": 14,
+      "parcial": 19,
+      "final": 37
+    }
   },
   {
-    "matricula": "PDM-103-01",
-    "nombre": "Clara",
-    "apellido": "Jiménez Ruiz",
+    "matricula": "PDM-003",
+    "nombre": "Hazel",
+    "apellido": "Green",
     "genero": "Femenino",
     "materia": "Programación Dispositivos Móviles",
     "dia_clase": "Lunes y Miércoles (Mañana)",
     "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/22.jpg",
+    "notas": {
+      "asistencia": 5,
+      "practica": 12,
+      "parcial": 18,
+      "final": 43
+    }
+  },
+  {
+    "matricula": "PDM-004",
+    "nombre": "Valdemar",
+    "apellido": "Olsen",
+    "genero": "Masculino",
+    "materia": "Programación Dispositivos Móviles",
+    "dia_clase": "Lunes y Miércoles (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/31.jpg",
+    "notas": {
+      "asistencia": 10,
+      "practica": 15,
+      "parcial": 20,
+      "final": 34
+    }
+  },
+  {
+    "matricula": "PDM-005",
+    "nombre": "Ale",
+    "apellido": "Pasmans",
+    "genero": "Masculino",
+    "materia": "Programación Dispositivos Móviles",
+    "dia_clase": "Lunes y Miércoles (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/23.jpg",
+    "notas": {
+      "asistencia": 7,
+      "practica": 13,
+      "parcial": 18,
+      "final": 41
+    }
+  },
+  {
+    "matricula": "PDM-006",
+    "nombre": "María Elena",
+    "apellido": "Salgado",
+    "genero": "Femenino",
+    "materia": "Programación Dispositivos Móviles",
+    "dia_clase": "Lunes y Miércoles (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
     "estudiante_foto": "https://randomuser.me/api/portraits/women/4.jpg",
-    "notas": { "asistencia": 7, "practica": 16, "parcial": 14, "final": 35 }
+    "notas": {
+      "asistencia": 5,
+      "practica": 12,
+      "parcial": 20,
+      "final": 37
+    }
   },
   {
-    "matricula": "PDM-104-01",
-    "nombre": "Marcos",
-    "apellido": "Alonso Gil",
+    "matricula": "PDM-007",
+    "nombre": "Andrés",
+    "apellido": "Hernández",
     "genero": "Masculino",
     "materia": "Programación Dispositivos Móviles",
     "dia_clase": "Lunes y Miércoles (Mañana)",
     "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/men/5.jpg",
-    "notas": { "asistencia": 8, "practica": 17, "parcial": 19, "final": 43 }
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/66.jpg",
+    "notas": {
+      "asistencia": 9,
+      "practica": 15,
+      "parcial": 18,
+      "final": 30
+    }
   },
   {
-    "matricula": "IA-201-01",
-    "nombre": "Sofía",
-    "apellido": "López Hernández",
-    "genero": "Femenino",
-    "materia": "Inteligencia Artificial",
-    "dia_clase": "Martes y Jueves (Tarde)",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/women/3.jpg",
-    "notas": { "asistencia": 8, "practica": 19, "parcial": 17, "final": 42 }
-  },
-  {
-    "matricula": "IA-202-01",
-    "nombre": "Carlos",
-    "apellido": "Sánchez Gómez",
-    "genero": "Masculino",
-    "materia": "Inteligencia Artificial",
-    "dia_clase": "Martes y Jueves (Tarde)",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/men/4.jpg",
-    "notas": { "asistencia": 7, "practica": 15, "parcial": 16, "final": 38 }
-  },
-  {
-    "matricula": "IA-203-01",
-    "nombre": "Elena",
-    "apellido": "Ramírez Soler",
-    "genero": "Femenino",
-    "materia": "Inteligencia Artificial",
-    "dia_clase": "Martes y Jueves (Tarde)",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/women/6.jpg",
-    "notas": { "asistencia": 9, "practica": 20, "parcial": 19, "final": 49 }
-  },
-  {
-    "matricula": "IA-204-01",
-    "nombre": "Javier",
-    "apellido": "Navarro Ortiz",
-    "genero": "Masculino",
-    "materia": "Inteligencia Artificial",
-    "dia_clase": "Martes y Jueves (Tarde)",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/men/7.jpg",
-    "notas": { "asistencia": 6, "practica": 14, "parcial": 13, "final": 30 }
-  },
-  {
-    "matricula": "ROB-301-01",
-    "nombre": "Laura",
-    "apellido": "Díaz Fernández",
-    "genero": "Femenino",
-    "materia": "Robótica",
-    "dia_clase": "Viernes (Mañana y Tarde)",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/women/5.jpg",
-    "notas": { "asistencia": 10, "practica": 20, "parcial": 20, "final": 49 }
-  },
-  {
-    "matricula": "ROB-302-01",
-    "nombre": "Pedro",
-    "apellido": "Moreno Jiménez",
-    "genero": "Masculino",
-    "materia": "Robótica",
-    "dia_clase": "Viernes (Mañana y Tarde)",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/men/6.jpg",
-    "notas": { "asistencia": 6, "practica": 12, "parcial": 10, "final": 25 }
-  },
-  {
-    "matricula": "ROB-303-01",
-    "nombre": "Lucía",
-    "apellido": "Pascual Vega",
-    "genero": "Femenino",
-    "materia": "Robótica",
-    "dia_clase": "Viernes (Mañana y Tarde)",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/women/8.jpg",
-    "notas": { "asistencia": 9, "practica": 18, "parcial": 17, "final": 41 }
-  },
-  {
-    "matricula": "TIP-401-01",
-    "nombre": "Elena",
-    "apellido": "Álvarez Ruiz",
-    "genero": "Femenino",
-    "materia": "Telefonía IP",
-    "dia_clase": "Sábado (Mañana)",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/women/7.jpg",
-    "notas": { "asistencia": 9, "practica": 17, "parcial": 18, "final": 44 }
-  },
-  {
-    "matricula": "TIP-402-01",
-    "nombre": "David",
-    "apellido": "Romero Torres",
-    "genero": "Masculino",
-    "materia": "Telefonía IP",
-    "dia_clase": "Sábado (Mañana)",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/men/9.jpg",
-    "notas": { "asistencia": 8, "practica": 16, "parcial": 15, "final": 39 }
-  },
-  {
-    "matricula": "DIM-501-01",
-    "nombre": "Valentina",
-    "apellido": "Rojas Silva",
-    "genero": "Femenino",
-    "materia": "Diseño de Interfaz y Multimedia",
-    "dia_clase": "Lunes (Tarde)",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/women/25.jpg", 
-    "notas": { "asistencia": 8, "practica": 18, "parcial": 16, "final": 41 }
-  },
-  {
-    "matricula": "DIM-502-01",
-    "nombre": "Mateo",
-    "apellido": "Castro Vargas",
-    "genero": "Masculino",
-    "materia": "Diseño de Interfaz y Multimedia",
-    "dia_clase": "Lunes (Tarde)",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/men/26.jpg", 
-    "notas": { "asistencia": 9, "practica": 19, "parcial": 19, "final": 47 }
-  },
-  {
-    "matricula": "DIM-503-01",
-    "nombre": "Camila",
-    "apellido": "Herrera Soto",
-    "genero": "Femenino",
-    "materia": "Diseño de Interfaz y Multimedia",
-    "dia_clase": "Lunes (Tarde)",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/women/10.jpg", 
-    "notas": { "asistencia": 7, "practica": 17, "parcial": 15, "final": 37 }
-  },
-  {
-    "matricula": "DCD-601-01",
-    "nombre": "Isabella",
-    "apellido": "Mora Guzman",
-    "genero": "Femenino",
-    "materia": "Diseño de Centro de Datos",
-    "dia_clase": "Martes (Mañana)",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/women/27.jpg",
-    "notas": { "asistencia": 10, "practica": 20, "parcial": 18, "final": 45 }
-  },
-  {
-    "matricula": "DCD-602-01",
-    "nombre": "Adrián",
-    "apellido": "Iglesias Vidal",
-    "genero": "Masculino",
-    "materia": "Diseño de Centro de Datos",
-    "dia_clase": "Martes (Mañana)",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/men/11.jpg",
-    "notas": { "asistencia": 8, "practica": 18, "parcial": 17, "final": 40 }
-  },
-  {
-    "matricula": "ADM-701-01",
-    "nombre": "Santiago",
-    "apellido": "Ortega Flores",
-    "genero": "Masculino",
-    "materia": "Análisis de Datos y Data Mining",
-    "dia_clase": "Jueves (Mañana)",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/men/28.jpg",
-    "notas": { "asistencia": 7, "practica": 16, "parcial": 17, "final": 40 }
-  },
-  {
-    "matricula": "ADM-702-01",
-    "nombre": "Gabriela",
-    "apellido": "Nuñez Crespo",
-    "genero": "Femenino",
-    "materia": "Análisis de Datos y Data Mining",
-    "dia_clase": "Jueves (Mañana)",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/women/12.jpg",
-    "notas": { "asistencia": 9, "practica": 19, "parcial": 18, "final": 46 }
-  },
-  {
-    "matricula": "ADM-703-01",
-    "nombre": "Daniel",
-    "apellido": "Reyes Morales",
-    "genero": "Masculino",
-    "materia": "Análisis de Datos y Data Mining",
-    "dia_clase": "Jueves (Mañana)",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/men/13.jpg",
-    "notas": { "asistencia": 5, "practica": 10, "parcial": 9, "final": 22 }
-  },
-  {
-    "matricula": "IA-201-02",
-    "nombre": "Ana",
-    "apellido": "García Pérez",
-    "genero": "Femenino",
-    "materia": "Inteligencia Artificial",
-    "dia_clase": "Martes y Jueves (Tarde)",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/women/1.jpg",
-    "notas": { "asistencia": 10, "practica": 19, "parcial": 18, "final": 47 }
-  },
-  {
-    "matricula": "ROB-301-02",
-    "nombre": "Luis",
-    "apellido": "Martínez Rodríguez",
-    "genero": "Masculino",
-    "materia": "Robótica",
-    "dia_clase": "Viernes (Mañana y Tarde)",
-    "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/men/2.jpg",
-    "notas": { "asistencia": 8, "practica": 18, "parcial": 16, "final": 40 }
-  },
-  {
-    "matricula": "PDM-105-01",
-    "nombre": "Sergio",
-    "apellido": "Blanco Paz",
+    "matricula": "PDM-008",
+    "nombre": "Niilo",
+    "apellido": "Kotila",
     "genero": "Masculino",
     "materia": "Programación Dispositivos Móviles",
-    "dia_clase": "Lunes y Miércoles (Tarde)",
+    "dia_clase": "Lunes y Miércoles (Mañana)",
     "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/men/14.jpg",
-    "notas": { "asistencia": 10, "practica": 20, "parcial": 17, "final": 45 }
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/98.jpg",
+    "notas": {
+      "asistencia": 10,
+      "practica": 20,
+      "parcial": 10,
+      "final": 26
+    }
   },
   {
-    "matricula": "IA-205-01",
-    "nombre": "Paula",
-    "apellido": "Santos Ferrer",
+    "matricula": "PDM-009",
+    "nombre": "Victor",
+    "apellido": "Park",
+    "genero": "Masculino",
+    "materia": "Programación Dispositivos Móviles",
+    "dia_clase": "Lunes y Miércoles (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/93.jpg",
+    "notas": {
+      "asistencia": 7,
+      "practica": 18,
+      "parcial": 19,
+      "final": 42
+    }
+  },
+  {
+    "matricula": "PDM-010",
+    "nombre": "Ceylan",
+    "apellido": "Yıldızoğlu",
+    "genero": "Femenino",
+    "materia": "Programación Dispositivos Móviles",
+    "dia_clase": "Lunes y Miércoles (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/50.jpg",
+    "notas": {
+      "asistencia": 10,
+      "practica": 10,
+      "parcial": 11,
+      "final": 37
+    }
+  },
+  {
+    "matricula": "PDM-011",
+    "nombre": "Annebelle",
+    "apellido": "Van Schip",
+    "genero": "Femenino",
+    "materia": "Programación Dispositivos Móviles",
+    "dia_clase": "Lunes y Miércoles (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/3.jpg",
+    "notas": {
+      "asistencia": 5,
+      "practica": 18,
+      "parcial": 12,
+      "final": 36
+    }
+  },
+  {
+    "matricula": "PDM-012",
+    "nombre": "Billy",
+    "apellido": "Torres",
+    "genero": "Masculino",
+    "materia": "Programación Dispositivos Móviles",
+    "dia_clase": "Lunes y Miércoles (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/72.jpg",
+    "notas": {
+      "asistencia": 6,
+      "practica": 16,
+      "parcial": 13,
+      "final": 33
+    }
+  },
+  {
+    "matricula": "PDM-013",
+    "nombre": "Gautam",
+    "apellido": "Rajesh",
+    "genero": "Masculino",
+    "materia": "Programación Dispositivos Móviles",
+    "dia_clase": "Lunes y Miércoles (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/99.jpg",
+    "notas": {
+      "asistencia": 6,
+      "practica": 13,
+      "parcial": 16,
+      "final": 39
+    }
+  },
+  {
+    "matricula": "PDM-014",
+    "nombre": "Janne",
+    "apellido": "Stempher",
+    "genero": "Masculino",
+    "materia": "Programación Dispositivos Móviles",
+    "dia_clase": "Lunes y Miércoles (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/22.jpg",
+    "notas": {
+      "asistencia": 7,
+      "practica": 10,
+      "parcial": 16,
+      "final": 29
+    }
+  },
+  {
+    "matricula": "PDM-015",
+    "nombre": "Lissy",
+    "apellido": "Schmidtke",
+    "genero": "Femenino",
+    "materia": "Programación Dispositivos Móviles",
+    "dia_clase": "Lunes y Miércoles (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/72.jpg",
+    "notas": {
+      "asistencia": 9,
+      "practica": 12,
+      "parcial": 20,
+      "final": 26
+    }
+  },
+  {
+    "matricula": "PDM-016",
+    "nombre": "Dennis",
+    "apellido": "Wheeler",
+    "genero": "Masculino",
+    "materia": "Programación Dispositivos Móviles",
+    "dia_clase": "Lunes y Miércoles (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/52.jpg",
+    "notas": {
+      "asistencia": 6,
+      "practica": 11,
+      "parcial": 17,
+      "final": 25
+    }
+  },
+  {
+    "matricula": "DCD-017-EXTRA",
+    "nombre": "Dennis",
+    "apellido": "Wheeler",
+    "genero": "Masculino",
+    "materia": "Diseño de Centro de Datos",
+    "dia_clase": "Martes (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/52.jpg",
+    "notas": {
+      "asistencia": 5,
+      "practica": 18,
+      "parcial": 17,
+      "final": 32
+    }
+  },
+  {
+    "matricula": "PDM-018",
+    "nombre": "Dobrivoje",
+    "apellido": "Vujić",
+    "genero": "Masculino",
+    "materia": "Programación Dispositivos Móviles",
+    "dia_clase": "Lunes y Miércoles (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/36.jpg",
+    "notas": {
+      "asistencia": 5,
+      "practica": 11,
+      "parcial": 20,
+      "final": 50
+    }
+  },
+  {
+    "matricula": "PDM-019",
+    "nombre": "Alexa",
+    "apellido": "Schäffler",
+    "genero": "Femenino",
+    "materia": "Programación Dispositivos Móviles",
+    "dia_clase": "Lunes y Miércoles (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/0.jpg",
+    "notas": {
+      "asistencia": 7,
+      "practica": 11,
+      "parcial": 10,
+      "final": 36
+    }
+  },
+  {
+    "matricula": "PDM-020",
+    "nombre": "Noah",
+    "apellido": "Park",
+    "genero": "Masculino",
+    "materia": "Programación Dispositivos Móviles",
+    "dia_clase": "Lunes y Miércoles (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/94.jpg",
+    "notas": {
+      "asistencia": 10,
+      "practica": 16,
+      "parcial": 20,
+      "final": 31
+    }
+  },
+  {
+    "matricula": "PDM-021",
+    "nombre": "Nandita",
+    "apellido": "Banerjee",
+    "genero": "Femenino",
+    "materia": "Programación Dispositivos Móviles",
+    "dia_clase": "Lunes y Miércoles (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/9.jpg",
+    "notas": {
+      "asistencia": 7,
+      "practica": 12,
+      "parcial": 12,
+      "final": 50
+    }
+  },
+  {
+    "matricula": "PDM-022",
+    "nombre": "Erika",
+    "apellido": "Köppel",
+    "genero": "Femenino",
+    "materia": "Programación Dispositivos Móviles",
+    "dia_clase": "Lunes y Miércoles (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/89.jpg",
+    "notas": {
+      "asistencia": 8,
+      "practica": 14,
+      "parcial": 14,
+      "final": 26
+    }
+  },
+  {
+    "matricula": "PDM-023",
+    "nombre": "Ava",
+    "apellido": "Wright",
+    "genero": "Femenino",
+    "materia": "Programación Dispositivos Móviles",
+    "dia_clase": "Lunes y Miércoles (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/42.jpg",
+    "notas": {
+      "asistencia": 5,
+      "practica": 15,
+      "parcial": 16,
+      "final": 27
+    }
+  },
+  {
+    "matricula": "PDM-024",
+    "nombre": "Karl",
+    "apellido": "Roussel",
+    "genero": "Masculino",
+    "materia": "Programación Dispositivos Móviles",
+    "dia_clase": "Lunes y Miércoles (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/13.jpg",
+    "notas": {
+      "asistencia": 7,
+      "practica": 13,
+      "parcial": 14,
+      "final": 25
+    }
+  },
+  {
+    "matricula": "PDM-025",
+    "nombre": "Gigi",
+    "apellido": "De Weerd",
+    "genero": "Femenino",
+    "materia": "Programación Dispositivos Móviles",
+    "dia_clase": "Lunes y Miércoles (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/18.jpg",
+    "notas": {
+      "asistencia": 8,
+      "practica": 12,
+      "parcial": 14,
+      "final": 47
+    }
+  },
+  {
+    "matricula": "PDM-026",
+    "nombre": "Mia",
+    "apellido": "Barbier",
+    "genero": "Femenino",
+    "materia": "Programación Dispositivos Móviles",
+    "dia_clase": "Lunes y Miércoles (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/45.jpg",
+    "notas": {
+      "asistencia": 10,
+      "practica": 13,
+      "parcial": 14,
+      "final": 39
+    }
+  },
+  {
+    "matricula": "IA-027",
+    "nombre": "Nihal",
+    "apellido": "Buth",
     "genero": "Femenino",
     "materia": "Inteligencia Artificial",
-    "dia_clase": "Martes y Jueves (Noche)",
+    "dia_clase": "Martes y Jueves (Tarde)",
     "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/women/15.jpg",
-    "notas": { "asistencia": 7, "practica": 15, "parcial": 14, "final": 33 }
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/48.jpg",
+    "notas": {
+      "asistencia": 8,
+      "practica": 12,
+      "parcial": 11,
+      "final": 49
+    }
   },
   {
-    "matricula": "DIM-501-02",
-    "nombre": "Sofía",
-    "apellido": "López Hernández",
+    "matricula": "IA-028",
+    "nombre": "James",
+    "apellido": "Mcguinness",
+    "genero": "Masculino",
+    "materia": "Inteligencia Artificial",
+    "dia_clase": "Martes y Jueves (Tarde)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/2.jpg",
+    "notas": {
+      "asistencia": 5,
+      "practica": 11,
+      "parcial": 17,
+      "final": 41
+    }
+  },
+  {
+    "matricula": "IA-029",
+    "nombre": "Joona",
+    "apellido": "Nurmi",
+    "genero": "Masculino",
+    "materia": "Inteligencia Artificial",
+    "dia_clase": "Martes y Jueves (Tarde)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/12.jpg",
+    "notas": {
+      "asistencia": 7,
+      "practica": 16,
+      "parcial": 16,
+      "final": 49
+    }
+  },
+  {
+    "matricula": "IA-030",
+    "nombre": "Ricardo",
+    "apellido": "Guerrero",
+    "genero": "Masculino",
+    "materia": "Inteligencia Artificial",
+    "dia_clase": "Martes y Jueves (Tarde)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/47.jpg",
+    "notas": {
+      "asistencia": 10,
+      "practica": 20,
+      "parcial": 12,
+      "final": 28
+    }
+  },
+  {
+    "matricula": "IA-031",
+    "nombre": "Hildburg",
+    "apellido": "Sand",
     "genero": "Femenino",
-    "materia": "Diseño de Interfaz y Multimedia",
-    "dia_clase": "Miércoles (Noche)",
+    "materia": "Inteligencia Artificial",
+    "dia_clase": "Martes y Jueves (Tarde)",
     "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/women/3.jpg",
-    "notas": { "asistencia": 9, "practica": 19, "parcial": 19, "final": 48 }
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/88.jpg",
+    "notas": {
+      "asistencia": 5,
+      "practica": 10,
+      "parcial": 11,
+      "final": 25
+    }
   },
   {
-    "matricula": "TIP-401-02",
-    "nombre": "Carlos",
-    "apellido": "Sánchez Gómez",
+    "matricula": "IA-032",
+    "nombre": "Malomir",
+    "apellido": "Grishchuk",
+    "genero": "Masculino",
+    "materia": "Inteligencia Artificial",
+    "dia_clase": "Martes y Jueves (Tarde)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/27.jpg",
+    "notas": {
+      "asistencia": 9,
+      "practica": 13,
+      "parcial": 17,
+      "final": 44
+    }
+  },
+  {
+    "matricula": "IA-033",
+    "nombre": "Adolfo",
+    "apellido": "León",
+    "genero": "Masculino",
+    "materia": "Inteligencia Artificial",
+    "dia_clase": "Martes y Jueves (Tarde)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/76.jpg",
+    "notas": {
+      "asistencia": 8,
+      "practica": 11,
+      "parcial": 18,
+      "final": 44
+    }
+  },
+  {
+    "matricula": "IA-034",
+    "nombre": "William",
+    "apellido": "Miller",
+    "genero": "Masculino",
+    "materia": "Inteligencia Artificial",
+    "dia_clase": "Martes y Jueves (Tarde)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/68.jpg",
+    "notas": {
+      "asistencia": 10,
+      "practica": 17,
+      "parcial": 18,
+      "final": 32
+    }
+  },
+  {
+    "matricula": "ROB-035",
+    "nombre": "Ethan",
+    "apellido": "Hanson",
+    "genero": "Masculino",
+    "materia": "Robótica",
+    "dia_clase": "Viernes (Mañana y Tarde)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/32.jpg",
+    "notas": {
+      "asistencia": 5,
+      "practica": 12,
+      "parcial": 12,
+      "final": 50
+    }
+  },
+  {
+    "matricula": "ROB-036",
+    "nombre": "آوا",
+    "apellido": "رضایی",
+    "genero": "Femenino",
+    "materia": "Robótica",
+    "dia_clase": "Viernes (Mañana y Tarde)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/50.jpg",
+    "notas": {
+      "asistencia": 5,
+      "practica": 20,
+      "parcial": 11,
+      "final": 29
+    }
+  },
+  {
+    "matricula": "ROB-037",
+    "nombre": "Caroline",
+    "apellido": "Gonzalez",
+    "genero": "Femenino",
+    "materia": "Robótica",
+    "dia_clase": "Viernes (Mañana y Tarde)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/46.jpg",
+    "notas": {
+      "asistencia": 5,
+      "practica": 14,
+      "parcial": 13,
+      "final": 49
+    }
+  },
+  {
+    "matricula": "ROB-038",
+    "nombre": "Natalia",
+    "apellido": "Echeverría",
+    "genero": "Femenino",
+    "materia": "Robótica",
+    "dia_clase": "Viernes (Mañana y Tarde)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/94.jpg",
+    "notas": {
+      "asistencia": 10,
+      "practica": 13,
+      "parcial": 19,
+      "final": 46
+    }
+  },
+  {
+    "matricula": "ROB-039",
+    "nombre": "Emmi",
+    "apellido": "Hokkanen",
+    "genero": "Femenino",
+    "materia": "Robótica",
+    "dia_clase": "Viernes (Mañana y Tarde)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/7.jpg",
+    "notas": {
+      "asistencia": 9,
+      "practica": 13,
+      "parcial": 18,
+      "final": 36
+    }
+  },
+  {
+    "matricula": "TIP-040-EXTRA",
+    "nombre": "Emmi",
+    "apellido": "Hokkanen",
+    "genero": "Femenino",
+    "materia": "Telefonía IP",
+    "dia_clase": "Sábado (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/7.jpg",
+    "notas": {
+      "asistencia": 10,
+      "practica": 16,
+      "parcial": 10,
+      "final": 33
+    }
+  },
+  {
+    "matricula": "ROB-041",
+    "nombre": "Roberto",
+    "apellido": "Santana",
+    "genero": "Masculino",
+    "materia": "Robótica",
+    "dia_clase": "Viernes (Mañana y Tarde)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/76.jpg",
+    "notas": {
+      "asistencia": 5,
+      "practica": 19,
+      "parcial": 13,
+      "final": 25
+    }
+  },
+  {
+    "matricula": "ADM-042-EXTRA",
+    "nombre": "Roberto",
+    "apellido": "Santana",
+    "genero": "Masculino",
+    "materia": "Análisis de Datos y Data Mining",
+    "dia_clase": "Jueves (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/76.jpg",
+    "notas": {
+      "asistencia": 8,
+      "practica": 16,
+      "parcial": 16,
+      "final": 37
+    }
+  },
+  {
+    "matricula": "ROB-043",
+    "nombre": "مرسانا",
+    "apellido": "صدر",
+    "genero": "Femenino",
+    "materia": "Robótica",
+    "dia_clase": "Viernes (Mañana y Tarde)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/71.jpg",
+    "notas": {
+      "asistencia": 6,
+      "practica": 12,
+      "parcial": 14,
+      "final": 38
+    }
+  },
+  {
+    "matricula": "ROB-044",
+    "nombre": "Neea",
+    "apellido": "Pulli",
+    "genero": "Femenino",
+    "materia": "Robótica",
+    "dia_clase": "Viernes (Mañana y Tarde)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/57.jpg",
+    "notas": {
+      "asistencia": 10,
+      "practica": 14,
+      "parcial": 16,
+      "final": 41
+    }
+  },
+  {
+    "matricula": "ROB-045",
+    "nombre": "Claudia",
+    "apellido": "Vidal",
+    "genero": "Femenino",
+    "materia": "Robótica",
+    "dia_clase": "Viernes (Mañana y Tarde)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/62.jpg",
+    "notas": {
+      "asistencia": 10,
+      "practica": 16,
+      "parcial": 17,
+      "final": 43
+    }
+  },
+  {
+    "matricula": "ROB-046",
+    "nombre": "Ezra",
+    "apellido": "Robinson",
+    "genero": "Masculino",
+    "materia": "Robótica",
+    "dia_clase": "Viernes (Mañana y Tarde)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/1.jpg",
+    "notas": {
+      "asistencia": 5,
+      "practica": 16,
+      "parcial": 10,
+      "final": 41
+    }
+  },
+  {
+    "matricula": "ROB-047",
+    "nombre": "ثنا",
+    "apellido": "سالاری",
+    "genero": "Femenino",
+    "materia": "Robótica",
+    "dia_clase": "Viernes (Mañana y Tarde)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/2.jpg",
+    "notas": {
+      "asistencia": 7,
+      "practica": 12,
+      "parcial": 14,
+      "final": 32
+    }
+  },
+  {
+    "matricula": "TIP-048",
+    "nombre": "Justine",
+    "apellido": "Grewal",
+    "genero": "Femenino",
+    "materia": "Telefonía IP",
+    "dia_clase": "Sábado (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/15.jpg",
+    "notas": {
+      "asistencia": 8,
+      "practica": 15,
+      "parcial": 13,
+      "final": 37
+    }
+  },
+  {
+    "matricula": "TIP-049",
+    "nombre": "Nella",
+    "apellido": "Kalas",
+    "genero": "Femenino",
+    "materia": "Telefonía IP",
+    "dia_clase": "Sábado (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/27.jpg",
+    "notas": {
+      "asistencia": 10,
+      "practica": 10,
+      "parcial": 13,
+      "final": 26
+    }
+  },
+  {
+    "matricula": "TIP-050",
+    "nombre": "Mika",
+    "apellido": "Malde",
     "genero": "Masculino",
     "materia": "Telefonía IP",
-    "dia_clase": "Sábado (Tarde)",
+    "dia_clase": "Sábado (Mañana)",
     "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/men/4.jpg",
-    "notas": { "asistencia": 10, "practica": 18, "parcial": 17, "final": 46 }
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/43.jpg",
+    "notas": {
+      "asistencia": 9,
+      "practica": 16,
+      "parcial": 18,
+      "final": 26
+    }
   },
   {
-    "matricula": "ADM-701-02",
-    "nombre": "Laura",
-    "apellido": "Díaz Fernández",
+    "matricula": "TIP-051",
+    "nombre": "Sila",
+    "apellido": "Cherinko",
+    "genero": "Masculino",
+    "materia": "Telefonía IP",
+    "dia_clase": "Sábado (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/11.jpg",
+    "notas": {
+      "asistencia": 10,
+      "practica": 14,
+      "parcial": 18,
+      "final": 40
+    }
+  },
+  {
+    "matricula": "ROB-052-EXTRA",
+    "nombre": "Sila",
+    "apellido": "Cherinko",
+    "genero": "Masculino",
+    "materia": "Robótica",
+    "dia_clase": "Viernes (Mañana y Tarde)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/11.jpg",
+    "notas": {
+      "asistencia": 6,
+      "practica": 19,
+      "parcial": 12,
+      "final": 29
+    }
+  },
+  {
+    "matricula": "TIP-053",
+    "nombre": "Margit",
+    "apellido": "Skurdal",
+    "genero": "Femenino",
+    "materia": "Telefonía IP",
+    "dia_clase": "Sábado (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/79.jpg",
+    "notas": {
+      "asistencia": 6,
+      "practica": 18,
+      "parcial": 12,
+      "final": 43
+    }
+  },
+  {
+    "matricula": "TIP-054",
+    "nombre": "Ida",
+    "apellido": "Sørensen",
+    "genero": "Femenino",
+    "materia": "Telefonía IP",
+    "dia_clase": "Sábado (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/80.jpg",
+    "notas": {
+      "asistencia": 5,
+      "practica": 14,
+      "parcial": 17,
+      "final": 41
+    }
+  },
+  {
+    "matricula": "TIP-055",
+    "nombre": "Arcílio",
+    "apellido": "Costa",
+    "genero": "Masculino",
+    "materia": "Telefonía IP",
+    "dia_clase": "Sábado (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/75.jpg",
+    "notas": {
+      "asistencia": 7,
+      "practica": 11,
+      "parcial": 13,
+      "final": 32
+    }
+  },
+  {
+    "matricula": "TIP-056",
+    "nombre": "Julien",
+    "apellido": "Moulin",
+    "genero": "Masculino",
+    "materia": "Telefonía IP",
+    "dia_clase": "Sábado (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/44.jpg",
+    "notas": {
+      "asistencia": 6,
+      "practica": 20,
+      "parcial": 15,
+      "final": 26
+    }
+  },
+  {
+    "matricula": "ADM-057-EXTRA",
+    "nombre": "Julien",
+    "apellido": "Moulin",
+    "genero": "Masculino",
+    "materia": "Análisis de Datos y Data Mining",
+    "dia_clase": "Jueves (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/44.jpg",
+    "notas": {
+      "asistencia": 10,
+      "practica": 12,
+      "parcial": 15,
+      "final": 40
+    }
+  },
+  {
+    "matricula": "TIP-058",
+    "nombre": "Irene",
+    "apellido": "Delgado",
+    "genero": "Femenino",
+    "materia": "Telefonía IP",
+    "dia_clase": "Sábado (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/60.jpg",
+    "notas": {
+      "asistencia": 5,
+      "practica": 11,
+      "parcial": 18,
+      "final": 35
+    }
+  },
+  {
+    "matricula": "TIP-059",
+    "nombre": "Iwan",
+    "apellido": "Verbeet",
+    "genero": "Masculino",
+    "materia": "Telefonía IP",
+    "dia_clase": "Sábado (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/8.jpg",
+    "notas": {
+      "asistencia": 7,
+      "practica": 14,
+      "parcial": 15,
+      "final": 35
+    }
+  },
+  {
+    "matricula": "TIP-060",
+    "nombre": "Gustav",
+    "apellido": "Petersen",
+    "genero": "Masculino",
+    "materia": "Telefonía IP",
+    "dia_clase": "Sábado (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/81.jpg",
+    "notas": {
+      "asistencia": 8,
+      "practica": 11,
+      "parcial": 12,
+      "final": 46
+    }
+  },
+  {
+    "matricula": "TIP-061",
+    "nombre": "Ružica",
+    "apellido": "Perišić",
+    "genero": "Femenino",
+    "materia": "Telefonía IP",
+    "dia_clase": "Sábado (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/68.jpg",
+    "notas": {
+      "asistencia": 8,
+      "practica": 12,
+      "parcial": 19,
+      "final": 28
+    }
+  },
+  {
+    "matricula": "DIM-062",
+    "nombre": "Veysel",
+    "apellido": "Langendijk",
+    "genero": "Masculino",
+    "materia": "Diseño de Interfaz y Multimedia",
+    "dia_clase": "Lunes (Tarde)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/17.jpg",
+    "notas": {
+      "asistencia": 8,
+      "practica": 18,
+      "parcial": 16,
+      "final": 43
+    }
+  },
+  {
+    "matricula": "DIM-063",
+    "nombre": "Simon",
+    "apellido": "Molland",
+    "genero": "Masculino",
+    "materia": "Diseño de Interfaz y Multimedia",
+    "dia_clase": "Lunes (Tarde)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/93.jpg",
+    "notas": {
+      "asistencia": 6,
+      "practica": 17,
+      "parcial": 10,
+      "final": 32
+    }
+  },
+  {
+    "matricula": "DIM-064",
+    "nombre": "Katherine",
+    "apellido": "Sutton",
+    "genero": "Femenino",
+    "materia": "Diseño de Interfaz y Multimedia",
+    "dia_clase": "Lunes (Tarde)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/46.jpg",
+    "notas": {
+      "asistencia": 7,
+      "practica": 15,
+      "parcial": 11,
+      "final": 29
+    }
+  },
+  {
+    "matricula": "DIM-065",
+    "nombre": "Rogvoloda",
+    "apellido": "Pasko",
+    "genero": "Femenino",
+    "materia": "Diseño de Interfaz y Multimedia",
+    "dia_clase": "Lunes (Tarde)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/6.jpg",
+    "notas": {
+      "asistencia": 8,
+      "practica": 18,
+      "parcial": 11,
+      "final": 41
+    }
+  },
+  {
+    "matricula": "IA-066-EXTRA",
+    "nombre": "Rogvoloda",
+    "apellido": "Pasko",
+    "genero": "Femenino",
+    "materia": "Inteligencia Artificial",
+    "dia_clase": "Martes y Jueves (Tarde)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/6.jpg",
+    "notas": {
+      "asistencia": 7,
+      "practica": 14,
+      "parcial": 18,
+      "final": 34
+    }
+  },
+  {
+    "matricula": "DIM-067",
+    "nombre": "Marcus",
+    "apellido": "Chapman",
+    "genero": "Masculino",
+    "materia": "Diseño de Interfaz y Multimedia",
+    "dia_clase": "Lunes (Tarde)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/12.jpg",
+    "notas": {
+      "asistencia": 10,
+      "practica": 12,
+      "parcial": 19,
+      "final": 47
+    }
+  },
+  {
+    "matricula": "DIM-068",
+    "nombre": "Klara",
+    "apellido": "Liverød",
+    "genero": "Femenino",
+    "materia": "Diseño de Interfaz y Multimedia",
+    "dia_clase": "Lunes (Tarde)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/92.jpg",
+    "notas": {
+      "asistencia": 6,
+      "practica": 15,
+      "parcial": 15,
+      "final": 31
+    }
+  },
+  {
+    "matricula": "ADM-069-EXTRA",
+    "nombre": "Klara",
+    "apellido": "Liverød",
     "genero": "Femenino",
     "materia": "Análisis de Datos y Data Mining",
-    "dia_clase": "Viernes (Noche)",
+    "dia_clase": "Jueves (Mañana)",
     "profesor_nombre": "Juancito Peña",
-    "profesor_foto": "https://randomuser.me/api/portraits/men/75.jpg",
-    "estudiante_foto": "https://randomuser.me/api/portraits/women/5.jpg",
-    "notas": { "asistencia": 8, "practica": 17, "parcial": 16, "final": 42 }
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/92.jpg",
+    "notas": {
+      "asistencia": 9,
+      "practica": 17,
+      "parcial": 19,
+      "final": 45
+    }
+  },
+  {
+    "matricula": "DIM-070",
+    "nombre": "Adam",
+    "apellido": "Poulsen",
+    "genero": "Masculino",
+    "materia": "Diseño de Interfaz y Multimedia",
+    "dia_clase": "Lunes (Tarde)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/80.jpg",
+    "notas": {
+      "asistencia": 5,
+      "practica": 11,
+      "parcial": 19,
+      "final": 33
+    }
+  },
+  {
+    "matricula": "DIM-071",
+    "nombre": "Cathriona",
+    "apellido": "Robertson",
+    "genero": "Femenino",
+    "materia": "Diseño de Interfaz y Multimedia",
+    "dia_clase": "Lunes (Tarde)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/71.jpg",
+    "notas": {
+      "asistencia": 10,
+      "practica": 15,
+      "parcial": 11,
+      "final": 45
+    }
+  },
+  {
+    "matricula": "PDM-072-EXTRA",
+    "nombre": "Cathriona",
+    "apellido": "Robertson",
+    "genero": "Femenino",
+    "materia": "Programación Dispositivos Móviles",
+    "dia_clase": "Lunes y Miércoles (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/71.jpg",
+    "notas": {
+      "asistencia": 9,
+      "practica": 18,
+      "parcial": 19,
+      "final": 41
+    }
+  },
+  {
+    "matricula": "DIM-073",
+    "nombre": "بیتا",
+    "apellido": "موسوی",
+    "genero": "Femenino",
+    "materia": "Diseño de Interfaz y Multimedia",
+    "dia_clase": "Lunes (Tarde)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/53.jpg",
+    "notas": {
+      "asistencia": 6,
+      "practica": 16,
+      "parcial": 20,
+      "final": 28
+    }
+  },
+  {
+    "matricula": "DCD-074",
+    "nombre": "Alison",
+    "apellido": "Dean",
+    "genero": "Femenino",
+    "materia": "Diseño de Centro de Datos",
+    "dia_clase": "Martes (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/49.jpg",
+    "notas": {
+      "asistencia": 6,
+      "practica": 11,
+      "parcial": 12,
+      "final": 48
+    }
+  },
+  {
+    "matricula": "PDM-075-EXTRA",
+    "nombre": "Alison",
+    "apellido": "Dean",
+    "genero": "Femenino",
+    "materia": "Programación Dispositivos Móviles",
+    "dia_clase": "Lunes y Miércoles (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/49.jpg",
+    "notas": {
+      "asistencia": 10,
+      "practica": 14,
+      "parcial": 11,
+      "final": 27
+    }
+  },
+  {
+    "matricula": "DCD-076",
+    "nombre": "Alicia",
+    "apellido": "Lockert",
+    "genero": "Femenino",
+    "materia": "Diseño de Centro de Datos",
+    "dia_clase": "Martes (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/50.jpg",
+    "notas": {
+      "asistencia": 8,
+      "practica": 14,
+      "parcial": 17,
+      "final": 50
+    }
+  },
+  {
+    "matricula": "DCD-077",
+    "nombre": "Chinmayee",
+    "apellido": "Chavare",
+    "genero": "Femenino",
+    "materia": "Diseño de Centro de Datos",
+    "dia_clase": "Martes (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/75.jpg",
+    "notas": {
+      "asistencia": 10,
+      "practica": 11,
+      "parcial": 11,
+      "final": 46
+    }
+  },
+  {
+    "matricula": "DCD-078",
+    "nombre": "Carl",
+    "apellido": "Sahm",
+    "genero": "Masculino",
+    "materia": "Diseño de Centro de Datos",
+    "dia_clase": "Martes (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/17.jpg",
+    "notas": {
+      "asistencia": 5,
+      "practica": 15,
+      "parcial": 18,
+      "final": 41
+    }
+  },
+  {
+    "matricula": "DCD-079",
+    "nombre": "Veeti",
+    "apellido": "Kokko",
+    "genero": "Masculino",
+    "materia": "Diseño de Centro de Datos",
+    "dia_clase": "Martes (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/25.jpg",
+    "notas": {
+      "asistencia": 8,
+      "practica": 10,
+      "parcial": 19,
+      "final": 28
+    }
+  },
+  {
+    "matricula": "DCD-080",
+    "nombre": "Cameron",
+    "apellido": "Wood",
+    "genero": "Masculino",
+    "materia": "Diseño de Centro de Datos",
+    "dia_clase": "Martes (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/41.jpg",
+    "notas": {
+      "asistencia": 5,
+      "practica": 20,
+      "parcial": 19,
+      "final": 34
+    }
+  },
+  {
+    "matricula": "DCD-081",
+    "nombre": "Riley",
+    "apellido": "Taylor",
+    "genero": "Masculino",
+    "materia": "Diseño de Centro de Datos",
+    "dia_clase": "Martes (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/6.jpg",
+    "notas": {
+      "asistencia": 6,
+      "practica": 20,
+      "parcial": 16,
+      "final": 45
+    }
+  },
+  {
+    "matricula": "DCD-082",
+    "nombre": "Thomas",
+    "apellido": "Grewal",
+    "genero": "Masculino",
+    "materia": "Diseño de Centro de Datos",
+    "dia_clase": "Martes (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/5.jpg",
+    "notas": {
+      "asistencia": 9,
+      "practica": 12,
+      "parcial": 13,
+      "final": 31
+    }
+  },
+  {
+    "matricula": "DCD-083",
+    "nombre": "Mikael",
+    "apellido": "Jørstad",
+    "genero": "Masculino",
+    "materia": "Diseño de Centro de Datos",
+    "dia_clase": "Martes (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/56.jpg",
+    "notas": {
+      "asistencia": 8,
+      "practica": 17,
+      "parcial": 11,
+      "final": 38
+    }
+  },
+  {
+    "matricula": "DCD-084",
+    "nombre": "Mestan",
+    "apellido": "Adal",
+    "genero": "Femenino",
+    "materia": "Diseño de Centro de Datos",
+    "dia_clase": "Martes (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/62.jpg",
+    "notas": {
+      "asistencia": 9,
+      "practica": 13,
+      "parcial": 20,
+      "final": 36
+    }
+  },
+  {
+    "matricula": "ADM-085",
+    "nombre": "Gülten",
+    "apellido": "Appelt",
+    "genero": "Femenino",
+    "materia": "Análisis de Datos y Data Mining",
+    "dia_clase": "Jueves (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/88.jpg",
+    "notas": {
+      "asistencia": 5,
+      "practica": 11,
+      "parcial": 10,
+      "final": 50
+    }
+  },
+  {
+    "matricula": "ADM-086",
+    "nombre": "Theodore",
+    "apellido": "Smith",
+    "genero": "Masculino",
+    "materia": "Análisis de Datos y Data Mining",
+    "dia_clase": "Jueves (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/73.jpg",
+    "notas": {
+      "asistencia": 9,
+      "practica": 10,
+      "parcial": 11,
+      "final": 30
+    }
+  },
+  {
+    "matricula": "PDM-087-EXTRA",
+    "nombre": "Theodore",
+    "apellido": "Smith",
+    "genero": "Masculino",
+    "materia": "Programación Dispositivos Móviles",
+    "dia_clase": "Lunes y Miércoles (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/73.jpg",
+    "notas": {
+      "asistencia": 7,
+      "practica": 10,
+      "parcial": 20,
+      "final": 31
+    }
+  },
+  {
+    "matricula": "ADM-088",
+    "nombre": "Irina",
+    "apellido": "Đokanović",
+    "genero": "Femenino",
+    "materia": "Análisis de Datos y Data Mining",
+    "dia_clase": "Jueves (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/75.jpg",
+    "notas": {
+      "asistencia": 5,
+      "practica": 19,
+      "parcial": 12,
+      "final": 45
+    }
+  },
+  {
+    "matricula": "ADM-089",
+    "nombre": "Nicolas",
+    "apellido": "Kampe",
+    "genero": "Masculino",
+    "materia": "Análisis de Datos y Data Mining",
+    "dia_clase": "Jueves (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/1.jpg",
+    "notas": {
+      "asistencia": 5,
+      "practica": 17,
+      "parcial": 19,
+      "final": 49
+    }
+  },
+  {
+    "matricula": "ADM-090",
+    "nombre": "میلاد",
+    "apellido": "کوتی",
+    "genero": "Masculino",
+    "materia": "Análisis de Datos y Data Mining",
+    "dia_clase": "Jueves (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/0.jpg",
+    "notas": {
+      "asistencia": 9,
+      "practica": 15,
+      "parcial": 11,
+      "final": 49
+    }
+  },
+  {
+    "matricula": "ADM-091",
+    "nombre": "Drishti",
+    "apellido": "Keshri",
+    "genero": "Femenino",
+    "materia": "Análisis de Datos y Data Mining",
+    "dia_clase": "Jueves (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/95.jpg",
+    "notas": {
+      "asistencia": 8,
+      "practica": 10,
+      "parcial": 18,
+      "final": 28
+    }
+  },
+  {
+    "matricula": "ADM-092",
+    "nombre": "Charlie",
+    "apellido": "Ginnish",
+    "genero": "Femenino",
+    "materia": "Análisis de Datos y Data Mining",
+    "dia_clase": "Jueves (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/89.jpg",
+    "notas": {
+      "asistencia": 7,
+      "practica": 10,
+      "parcial": 11,
+      "final": 44
+    }
+  },
+  {
+    "matricula": "PDM-093-EXTRA",
+    "nombre": "Charlie",
+    "apellido": "Ginnish",
+    "genero": "Femenino",
+    "materia": "Programación Dispositivos Móviles",
+    "dia_clase": "Lunes y Miércoles (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/89.jpg",
+    "notas": {
+      "asistencia": 7,
+      "practica": 17,
+      "parcial": 11,
+      "final": 38
+    }
+  },
+  {
+    "matricula": "ADM-094",
+    "nombre": "Ömür",
+    "apellido": "Akar",
+    "genero": "Femenino",
+    "materia": "Análisis de Datos y Data Mining",
+    "dia_clase": "Jueves (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/45.jpg",
+    "notas": {
+      "asistencia": 9,
+      "practica": 14,
+      "parcial": 18,
+      "final": 38
+    }
+  },
+  {
+    "matricula": "ADM-095",
+    "nombre": "Maja",
+    "apellido": "Rasmussen",
+    "genero": "Femenino",
+    "materia": "Análisis de Datos y Data Mining",
+    "dia_clase": "Jueves (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/women/91.jpg",
+    "notas": {
+      "asistencia": 9,
+      "practica": 14,
+      "parcial": 19,
+      "final": 47
+    }
+  },
+  {
+    "matricula": "ADM-096",
+    "nombre": "Abraham",
+    "apellido": "Monroy",
+    "genero": "Masculino",
+    "materia": "Análisis de Datos y Data Mining",
+    "dia_clase": "Jueves (Mañana)",
+    "profesor_nombre": "Juancito Peña",
+    "profesor_foto": "https://avatars.githubusercontent.com/u/38921558?v=4",
+    "estudiante_foto": "https://randomuser.me/api/portraits/men/42.jpg",
+    "notas": {
+      "asistencia": 5,
+      "practica": 18,
+      "parcial": 14,
+      "final": 33
+    }
   }
 ]
