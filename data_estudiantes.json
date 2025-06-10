@@ -86,12 +86,7 @@
     "estudiante_foto": "https://randomuser.me/api/portraits/women/7.jpg",
     "notas": { "asistencia": 9, "practica": 17, "parcial": 18, "final": 44 }
   },
-  // ... y así para las demás materias:
-  // "Diseño de Interfaz y Multimedia" (ej. Lunes),
-  // "Diseño de Centro de Datos" (ej. Martes),
-  // "Análisis de Datos y Data Mining" (ej. Jueves)
-
-
+ 
   {
     "matricula": "DIM-501",
     "nombre": "Valentina",
