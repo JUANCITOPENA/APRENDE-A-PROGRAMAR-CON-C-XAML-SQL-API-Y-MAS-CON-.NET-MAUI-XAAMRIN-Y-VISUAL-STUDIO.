@@ -189,6 +189,8 @@ https://api.openweathermap.org/data/2.5/weather
 
 ### MainPage.xaml.cs (versión básica)
 
+#### Ahra debemmos instalar la libreria de (Newtonsoft.Json) para Importa el espacio de nombres para trabajar con objetos JSON.
+
 ```csharp
 using System; // Importa funciones básicas de C#
 using Xamarin.Forms; // Librería para crear interfaces móviles con Xamarin
@@ -202,7 +204,7 @@ namespace App45
     public partial class MainPage : ContentPage
     {
         // Clave de API para acceder a OpenWeatherMap
-        private const string ApiKey = "xxxx: xxxx-xxxx-xxxx-xxxx-xxxx-xxxx-xxxx-xxxx";
+        private const string ApiKey = "xxxx-xxxx-xxxx-xxxx-xxxx-xxxx-xxxx-xxxx";
 
         // URL base de la API con parámetros para ciudad y clave de API
         private const string ApiUrl = "https://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}&units=metric";
@@ -312,6 +314,8 @@ Con este ajuste, la app se vuelve **más intuitiva y funcional**. ¿Quieres que 
 
 ### MainPage.xaml.cs (versión mejorada con ciudad por defecto)
 
+#### Ahra debemmos instalar la libreria de (Newtonsoft.Json) para Importa el espacio de nombres para trabajar con objetos JSON.
+
 ```csharp
 using System;  // Importa el espacio de nombres que contiene clases fundamentales como las excepciones y las conversiones de tipos.
 using Xamarin.Forms;  // Importa el espacio de nombres de Xamarin.Forms para trabajar con la interfaz de usuario.
@@ -324,7 +328,7 @@ namespace App45  // Define el espacio de nombres para la aplicación.
 {
     public partial class MainPage : ContentPage  // Declara la clase MainPage, que hereda de ContentPage, la cual es una página de la interfaz de usuario en Xamarin.
     {
-        private const string ApiKey = "xxxx: xxxx-xxxx-xxxx-xxxx-xxxx-xxxx-xxxx-xxxx";  // Clave de la API de OpenWeatherMap para acceder a los datos del clima.
+        private const string ApiKey = "xxxx-xxxx-xxxx-xxxx-xxxx-xxxx-xxxx-xxxx";  // Clave de la API de OpenWeatherMap para acceder a los datos del clima.
         private const string ApiUrl = "https://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}&units=metric";  // URL de la API con el formato para realizar la solicitud del clima.
 
         public MainPage()  // Constructor de la clase MainPage, se ejecuta al crear la página.
