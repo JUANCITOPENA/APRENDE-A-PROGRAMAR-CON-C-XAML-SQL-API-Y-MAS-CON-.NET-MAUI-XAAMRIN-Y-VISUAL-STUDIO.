@@ -191,6 +191,17 @@ https://api.openweathermap.org/data/2.5/weather
 
 #### Ahra debemmos instalar la libreria de (Newtonsoft.Json) para Importa el espacio de nombres para trabajar con objetos JSON.
 
+✅ Instalación rápida de Newtonsoft.Json en Visual Studio
+- Haz clic derecho sobre el proyecto en el Solution Explorer.
+- Selecciona Manage NuGet Packages.
+- Ve a la pestaña Browse.
+- Escribe Newtonsoft.Json en el buscador.
+- Selecciona el paquete Newtonsoft.Json.
+- Haz clic en Install.
+- Acepta los términos si se te solicita.
+
+### MainPage.xaml.cs (versión básica)
+
 ```csharp
 using System; // Importa funciones básicas de C#
 using Xamarin.Forms; // Librería para crear interfaces móviles con Xamarin
@@ -315,6 +326,18 @@ Con este ajuste, la app se vuelve **más intuitiva y funcional**. ¿Quieres que 
 ### MainPage.xaml.cs (versión mejorada con ciudad por defecto)
 
 #### Ahra debemmos instalar la libreria de (Newtonsoft.Json) para Importa el espacio de nombres para trabajar con objetos JSON.
+
+✅ Instalación rápida de Newtonsoft.Json en Visual Studio
+- Haz clic derecho sobre el proyecto en el Solution Explorer.
+- Selecciona Manage NuGet Packages.
+- Ve a la pestaña Browse.
+- Escribe Newtonsoft.Json en el buscador.
+- Selecciona el paquete Newtonsoft.Json.
+- Haz clic en Install.
+- Acepta los términos si se te solicita.
+
+### MainPage.xaml.cs (versión básica)
+
 
 ```csharp
 using System;  // Importa el espacio de nombres que contiene clases fundamentales como las excepciones y las conversiones de tipos.
