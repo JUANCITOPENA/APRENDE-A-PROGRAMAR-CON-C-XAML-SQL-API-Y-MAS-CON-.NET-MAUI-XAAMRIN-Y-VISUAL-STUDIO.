@@ -36,6 +36,19 @@ Una **API (Application Programming Interface)** es un conjunto de reglas y proto
 
 ## 📄 Código
 
+
+### MainPage.xaml
+
+```xml
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ApiDemo.MainPage">
+    <StackLayout Padding="20">
+        <Label x:Name="resultLabel" Text="Cargando..." />
+    </StackLayout>
+</ContentPage>
+```
+
 ### MainPage.xaml.cs
 
 ```csharp
@@ -85,18 +98,6 @@ namespace ApiDemo
         public string body { get; set; }    // Contenido/cuerpo del post
     }
 }
-```
-
-### MainPage.xaml
-
-```xml
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ApiDemo.MainPage">
-    <StackLayout Padding="20">
-        <Label x:Name="resultLabel" Text="Cargando..." />
-    </StackLayout>
-</ContentPage>
 ```
 
 ## ✅ Resultado Esperado
