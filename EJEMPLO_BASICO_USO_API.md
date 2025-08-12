@@ -151,7 +151,7 @@ public class Post
 var post = JsonConvert.DeserializeObject<Post>(json);
 Console.WriteLine(post.title); // Muestra el título del post
 ```
-![Resultado API](Screenshot_574.png)
+![Resultado API](imagenes/Screenshot_574.png)
 
 
 La clase `Post` actúa como un **modelo de datos** que traduce la respuesta de la API en un objeto C# manipulable. Este patrón es común en aplicaciones que consumen servicios web, ya que permite trabajar con datos externos de forma estructurada y segura.
