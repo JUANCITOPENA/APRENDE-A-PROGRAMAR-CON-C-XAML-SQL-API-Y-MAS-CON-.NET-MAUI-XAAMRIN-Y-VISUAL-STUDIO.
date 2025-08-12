@@ -18,38 +18,50 @@ Este proyecto demuestra cómo realizar una consulta **sencilla** a una API públ
 ### MainPage.xaml.cs
 
 ```csharp
-using Newtonsoft.Json;
-using System.Net.Http;
-using Xamarin.Forms;
+// Librerías necesarias
+using Newtonsoft.Json;      // Para deserializar JSON
+using System.Net.Http;      // Para hacer peticiones HTTP
+using Xamarin.Forms;        // Base de Xamarin.Forms
 
 namespace ApiDemo
 {
     public partial class MainPage : ContentPage
     {
+        // Constructor de la página principal
         public MainPage()
         {
-            InitializeComponent();
-            GetPost();
+            InitializeComponent();  // Inicializa los componentes del XAML
+            GetPost();              // Ejecuta la consulta a la API al cargar
         }
 
+        // Método asíncrono para obtener datos de la API
         private async void GetPost()
         {
+            // URL del endpoint que vamos a consultar
             var url = "https://jsonplaceholder.typicode.com/posts/1";
+            
+            // Creamos el cliente HTTP dentro de using para liberarlo automáticamente
             using (var client = new HttpClient())
             {
+                // Hacemos la petición GET y obtenemos la respuesta como string
                 var response = await client.GetStringAsync(url);
+                
+                // Convertimos el JSON string en un objeto Post
                 var post = JsonConvert.DeserializeObject<Post>(response);
+                
+                // Mostramos el resultado en el Label de la interfaz
                 resultLabel.Text = $"Título: {post.title}\nContenido: {post.body}";
             }
         }
     }
 
+    // Modelo/clase que representa la estructura del JSON que recibimos
     public class Post
     {
-        public int userId { get; set; }
-        public int id { get; set; }
-        public string title { get; set; }
-        public string body { get; set; }
+        public int userId { get; set; }     // ID del usuario que creó el post
+        public int id { get; set; }         // ID único del post
+        public string title { get; set; }   // Título del post
+        public string body { get; set; }    // Contenido/cuerpo del post
     }
 }
 ```
