@@ -108,6 +108,40 @@ Al ejecutar la app, se mostrará el título y contenido del post simulado:
 Título: sunt aut facere repellat provident occaecati
 Contenido: quia et suscipit...
 ```
+# 📘 ¿Qué es una Clase en C#? (Ejemplo aplicado)
+
+En C#, una **clase** es una estructura que define un tipo personalizado con propiedades y comportamientos. Sirve como **molde** para crear objetos que representan entidades del mundo real o datos estructurados.
+
+## 🧩 Aplicación en el ejemplo de API
+
+En el ejemplo de consumo de API con Xamarin.Forms, usamos la clase `Post` para **modelar la respuesta JSON** del endpoint `https://jsonplaceholder.typicode.com/posts/1`.
+
+### 🧱 Clase `Post`
+
+```csharp
+public class Post
+{
+    public int userId { get; set; }
+    public int id { get; set; }
+    public string title { get; set; }
+    public string body { get; set; }
+}
+```
+
+## 🔍 ¿Para qué sirve?
+
+- **Representa** la estructura del objeto JSON recibido.
+- Permite **deserializar** la respuesta de la API usando `JsonConvert.DeserializeObject<Post>(...)`.
+- Facilita el acceso a los datos mediante propiedades (`post.title`, `post.body`, etc.).
+
+## 🧪 Uso en contexto
+
+```csharp
+var post = JsonConvert.DeserializeObject<Post>(json);
+Console.WriteLine(post.title); // Muestra el título del post
+```
+
+La clase `Post` actúa como un **modelo de datos** que traduce la respuesta de la API en un objeto C# manipulable. Este patrón es común en aplicaciones que consumen servicios web, ya que permite trabajar con datos externos de forma estructurada y segura.
 
 ## 📦 Extras
 
