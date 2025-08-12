@@ -29,9 +29,14 @@ Una **API (Application Programming Interface)** es un conjunto de reglas y proto
 4. **Colaboración**: Integrar con servicios de terceros
 5. **Versatilidad**: Una API puede alimentar web, móvil, desktop
 
+El siguiente diagrama ilustra el flujo básico de consumo de una API desde una aplicación cliente. Comienza con una solicitud HTTP enviada por el frontend (por ejemplo, una app en JavaScript o Xamarin), que llega al servidor de la API. Este servidor procesa la solicitud, accede a los datos necesarios (ya sea desde una base de datos o un servicio externo) y devuelve una respuesta estructurada en formato JSON.
+
 ![Diagrama de flujo API](https://miro.medium.com/v2/resize:fit:950/0*nsCezuL33k1W5lZQ.jpg)
 
+Este flujo es fundamental en aplicaciones modernas que requieren comunicación entre el cliente y servicios remotos. Entender cada etapa —desde la solicitud hasta la respuesta— permite diseñar interfaces más eficientes, manejar errores correctamente y estructurar los datos recibidos para visualizaciones, dashboards o procesamiento adicional.
+
 ![Diagrama de flujo API](https://dossetenta.com/wp-content/uploads/2024/03/R6qFq3n.png)
+
 
 
 
