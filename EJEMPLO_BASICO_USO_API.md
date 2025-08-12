@@ -29,6 +29,12 @@ Una **API (Application Programming Interface)** es un conjunto de reglas y proto
 4. **Colaboración**: Integrar con servicios de terceros
 5. **Versatilidad**: Una API puede alimentar web, móvil, desktop
 
+![Diagrama de flujo API](https://miro.medium.com/v2/resize:fit:950/0*nsCezuL33k1W5lZQ.jpg)
+
+![Diagrama de flujo API](https://dossetenta.com/wp-content/uploads/2024/03/R6qFq3n.png)
+
+
+
 ## 🛠️ Requisitos
 
 - Xamarin.Forms
