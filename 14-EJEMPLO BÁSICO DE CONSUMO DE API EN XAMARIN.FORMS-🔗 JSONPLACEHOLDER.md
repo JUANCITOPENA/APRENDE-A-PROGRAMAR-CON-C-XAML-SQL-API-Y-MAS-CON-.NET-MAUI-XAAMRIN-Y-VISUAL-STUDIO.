@@ -185,3 +185,91 @@ Puedes extender este ejemplo para mostrar múltiples posts en un `ListView`, int
 3. **Respuesta JSON**: El servidor devuelve datos en formato JSON como texto
 4. **Deserialización**: `Newtonsoft.Json` convierte el texto JSON en un objeto C# tipado
 5. **Visualización**: Los datos se muestran en la interfaz de usuario
+   
+## **Con mejores Practicas y Control de Errores seria como esto:**
+
+### MainPage.xaml
+
+```xml
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App29.MainPage">
+
+
+
+    <StackLayout Padding="20">
+        <Label x:Name="resultLabel"
+               Text="Cargando..."
+               FontSize="Medium"
+               TextColor="Black"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand" />
+    </StackLayout>
+
+```
+
+</ContentPage>
+
+
+### MainPage.xaml.cs
+
+```csharp
+using System;
+using System.Net.Http;
+using Newtonsoft.Json;
+using Xamarin.Forms;
+using Xamarin.Essentials;
+
+namespace App29
+{
+    public partial class MainPage : ContentPage
+    {
+        public MainPage()
+        {
+            InitializeComponent();
+            GetPost();
+        }
+
+        private async void GetPost()
+        {
+            // Verificar conexión a Internet
+            if (Connectivity.NetworkAccess != NetworkAccess.Internet)
+            {
+                resultLabel.Text = "❌ No hay conexión a Internet.";
+                return;
+            }
+
+            var url = "https://jsonplaceholder.typicode.com/posts/1";
+
+            using (var client = new HttpClient())
+            {
+                try
+                {
+                    var response = await client.GetStringAsync(url);
+                    var post = JsonConvert.DeserializeObject<Post>(response);
+
+                    resultLabel.Text = $"🆔 ID del Post: {post.id}\n" +
+                                       $"👤 ID del Usuario: {post.userId}\n" +
+                                       $"📌 Título:\n{post.title}\n\n" +
+                                       $"📝 Contenido:\n{post.body}";
+                }
+                catch (Exception ex)
+                {
+                    resultLabel.Text = $"⚠️ Error al obtener el post:\n{ex.Message}";
+                }
+            }
+        }
+    }
+
+    public class Post
+    {
+        public int userId { get; set; }
+        public int id { get; set; }
+        public string title { get; set; }
+        public string body { get; set; }
+    }
+}
+
+
+```
