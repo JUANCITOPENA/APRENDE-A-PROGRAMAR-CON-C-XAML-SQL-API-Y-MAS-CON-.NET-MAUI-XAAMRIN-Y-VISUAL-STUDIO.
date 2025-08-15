@@ -273,3 +273,135 @@ namespace App29
 
 
 ```
+
+# 📱 VISUALIZACIÓN DE POSTS MAS DETALLADA Y CON FILTRO DE LOS 10 POST. 
+---
+
+## 🛠️ FUNCIONALIDADES PRINCIPALES NNUEVAS.
+
+- ✅ Verificación de conexión a Internet (`Xamarin.Essentials`)
+- 📡 Consumo de API REST con `HttpClient`
+- 🧠 Manejo de errores con `try-catch`
+- 🎨 Interfaz visual amigable con emojis y estilos
+- 🔁 Botón para actualizar manualmente los datos
+- 📋 Modelo de datos estructurado (`Post`)
+- 📜 ScrollView para visualizar contenido extenso
+
+---
+
+### MainPage.xaml
+
+```xml
+
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App29.MainPage">
+
+    <StackLayout Padding="20">
+
+        <Button Text="🔄 Actualizar Posts"
+                Clicked="OnActualizarClicked"
+                BackgroundColor="#2196F3"
+                TextColor="White"
+                CornerRadius="10"
+                Margin="0,0,0,10" />
+
+        <ScrollView>
+            <StackLayout>
+                <Label x:Name="resultLabel"
+                       Text="Cargando..."
+                       FontSize="Medium"
+                       TextColor="Black"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
+        </ScrollView>
+
+    </StackLayout>
+
+</ContentPage>
+```
+
+### MainPage.xaml.cs
+
+```csharp
+
+using System;
+using System.Net.Http;
+using System.Collections.Generic;
+using Newtonsoft.Json;
+using Xamarin.Forms;
+using Xamarin.Essentials;
+
+namespace App29
+{
+    public partial class MainPage : ContentPage
+    {
+        public MainPage()
+        {
+            InitializeComponent();
+            GetPosts();
+        }
+
+        private async void GetPosts()
+        {
+            if (Connectivity.NetworkAccess != NetworkAccess.Internet)
+            {
+                resultLabel.Text = "❌ No hay conexión a Internet.";
+                return;
+            }
+
+            var url = "https://jsonplaceholder.typicode.com/posts";
+
+            using (var client = new HttpClient())
+            {
+                try
+                {
+                    resultLabel.Text = "⏳ Cargando posts...";
+
+                    var response = await client.GetStringAsync(url);
+                    var posts = JsonConvert.DeserializeObject<List<Post>>(response);
+
+                    if (posts != null && posts.Count > 0)
+                    {
+                        string resultado = "";
+                        for (int i = 0; i < Math.Min(10, posts.Count); i++)
+                        {
+                            resultado += $"🆔 ID del Post: {posts[i].id}\n" +
+                                         $"👤 ID del Usuario: {posts[i].userId}\n" +
+                                         $"📌 Título:\n{posts[i].title}\n\n" +
+                                         $"📝 Contenido:\n{posts[i].body}\n" +
+                                         "-------------------------\n";
+                        }
+
+                        resultLabel.Text = resultado;
+                    }
+                    else
+                    {
+                        resultLabel.Text = "⚠️ No se encontraron posts.";
+                    }
+                }
+                catch (Exception ex)
+                {
+                    resultLabel.Text = $"⚠️ Error al obtener los posts:\n{ex.Message}";
+                }
+            }
+        }
+
+        private void OnActualizarClicked(object sender, EventArgs e)
+        {
+            GetPosts();
+        }
+    }
+
+    public class Post
+    {
+        public int userId { get; set; }
+        public int id { get; set; }
+        public string title { get; set; }
+        public string body { get; set; }
+    }
+}
+
+
