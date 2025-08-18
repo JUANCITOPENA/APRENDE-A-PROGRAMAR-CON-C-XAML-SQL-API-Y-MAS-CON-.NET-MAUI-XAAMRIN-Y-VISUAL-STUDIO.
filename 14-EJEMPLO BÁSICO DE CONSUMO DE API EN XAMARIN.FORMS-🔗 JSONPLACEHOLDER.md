@@ -38,12 +38,30 @@ Este flujo es fundamental en aplicaciones modernas que requieren comunicación e
 ![Diagrama de flujo API](https://dossetenta.com/wp-content/uploads/2024/03/R6qFq3n.png)
 
 
-
-
 ## 🛠️ Requisitos
 
-- Xamarin.Forms
-- Paquete NuGet: `Newtonsoft.Json`
+- **Xamarin.Forms** (puedes usar Visual Studio 2019 o 2022)
+- **Paquete NuGet:** `Newtonsoft.Json`
+- **Conexión a internet** (para consumir la API)
+
+---
+
+## ⚙️ Paso a paso para crear el proyecto
+
+### 1. Crear el proyecto
+
+- Abre **Visual Studio**
+- Selecciona **"Crear nuevo proyecto"**
+- Elige **"Aplicación móvil (Xamarin.Forms)"**
+- Nómbralo por ejemplo: `JsonPlaceholderDemo`
+- Selecciona **"Blank"** y **"Xamarin.Forms"** como tipo de proyecto
+
+### 2. Instalar Newtonsoft.Json
+
+- En el **Proyecto Compartido (`JsonPlaceholderDemo`)**, haz clic derecho → **Administrar paquetes NuGet**
+- Busca `Newtonsoft.Json` y haz clic en **Instalar**
+- Repite esto en los proyectos de plataforma (**Android**, **iOS**) si lo necesitas
+
 
 ## 📄 Código
 
