@@ -323,6 +323,9 @@ namespace App29
 </ContentPage>
 ```
 
+
+![Resultado API](imagenes/Screenshot_578.png)  
+
 ### MainPage.xaml.cs
 
 ```csharp
